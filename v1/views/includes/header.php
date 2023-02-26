@@ -1,58 +1,151 @@
-<header class="header header-home-two">
-    <nav class="navbar navbar-default header-navigation stricky">
-        <div class="thm-container clearfix">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed mixup-icon-menu" data-toggle="collapse" data-target=".main-navigation" aria-expanded="false"> </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/header-logo-1.png" alt="Awesome Image"/>
-                </a>
-            </div>
+<!DOCTYPE html>
+<html lang="zxx">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse main-navigation mainmenu " id="main-nav-bar">
-                
-                <ul class="nav navbar-nav navigation-box">
-                    <li class="current"> 
-                        <a href="main">Home</a> 
-                        <ul class="sub-menu">
-                            <li><a href="jayhome">Home Page One</a></li>
-                            <li><a href="index2.html">Home Page Two</a></li>
-                            <li><a href="index3.html">Home Page Three</a></li>
-                            <li><a href="index4.html">Home Page Four</a></li>
-                            <li><a href="index5.html">Home Page Five</a></li>
-                            <li><a href="index6.html">Home Page Six</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> <a href="features">Features</a> </li>
-                    <li> <a href="jayprice">Pricing</a> </li>
-                    <li> 
-                        <a href="#">Pages</a> 
-                        <ul class="sub-menu">
-                            <li><a href="faq">Faq Page</a></li>
-                            <li><a href="404">404 Page</a></li>
-                            <li><a href="review">Testimonials</a></li>
-                            <li><a href="team">Team</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> 
-                        <a href="jaynews">News</a> 
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">News Grid</a></li>
-                            <li><a href="morein">News Details</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> <a href="info">Contact</a> </li>
-                </ul>                
-            </div><!-- /.navbar-collapse -->
-            <div class="right-side-box">
-                <div class="social">
-                    <a href="#" class="fa fa-twitter"></a><!--
-                    --><a href="#" class="fa fa-facebook"></a><!--
-                    --><a href="#" class="fa fa-instagram"></a>
-                </div><!-- /.social -->
-            </div><!-- /.right-side-box -->
-        </div><!-- /.container -->
-    </nav>   
-</header>
-<!-- /.header -->
+<!-- Mirrored from demo.webtend.net/html/jeena/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:37:48 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Jay Home</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"><div class="custom-loader"></div></div>
+
+        <!-- main header -->
+        <header class="main-header header-one menu-white">
+
+           <div class="header-top-wrap bgc-gray">
+               <div class="container">
+                   <div class="header-top">
+                       <ul>
+                            <li><i class="far fa-envelope"></i> <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#681b1d1818071a1c280f05090104460b0705"><span class="__cf_email__" data-cfemail="93e0e6e3e3fce1e7d3f4fef2faffbdf0fcfe">[email&#160;protected]</span></a></li>
+                            <li><i class="far fa-phone"></i> <a href="callto:+000(123)45688">+1 (906) 984 9264</a></li>
+                            <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li>
+                            <li>
+                                <div class="social-style-one">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                   </div>
+               </div>
+           </div>
+           
+            <!--Header-Upper-->
+            <div class="header-upper bgc-black">
+                <div class="container clearfix">
+
+                    <div class="header-inner rel d-flex align-items-center">
+                        <div class="logo-outer">
+                            <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo"></a></div>
+                        </div>
+
+                        <div class="nav-outer mx-auto clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header">
+                                   <div class="mobile-logo">
+                                       <a href="index-2.html">
+                                            <img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo">
+                                       </a>
+                                   </div>
+                                   
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="main">Home</a>
+                                            
+                                        </li>
+                                        <li class="dropdown"><a href="#">about</a>
+                                            <ul>
+                                                <li><a href="about">about us</a></li>
+                                                <li><a href="team">team</a></li>
+                                                <li><a href="faq">faqs</a></li>
+                                                <li><a href="pricing">pricing plan</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="explore">services</a>
+                                            
+                                        </li>
+                                        <li ><a href="plan">Project</a>
+                                           
+                                        </li>
+                                        
+                                        <li ><a href="blogs">blog</a>
+                                            
+                                        </li>
+                                        <li ><a href="info">contact us</a>
+                                            <!-- <ul>
+                                                 <li><a href="about.html">About us</a></li> 
+                                                <li><a href="contact.html">Contact us</a></li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="faqs.html">faqs</a></li>
+                                                <li><a href="pricing.html">Pricing Plan</a></li>
+                                                <li><a href="404.html">404 error</a></li>
+                                            </ul> -->
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                        
+                        <!-- Nav Search -->
+                        <div class="nav-search py-10">
+                            <button class="far fa-search"></button>
+                            <form action="#" class="hide">
+                                <input type="text" placeholder="Search" class="searchbox" required="">
+                                <button type="submit" class="searchbutton far fa-search"></button>
+                            </form>
+                        </div>
+                        
+                        <!-- Menu Button -->
+                        <div class="menu-btns">
+                           <a href="contact.html" class="theme-btn">Get a Quote <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+        </header>

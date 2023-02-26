@@ -1,128 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+$section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show'])[0];
 
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:14 GMT -->
-<?php include 'includes/header.php' ?>
-<head>
-    <meta charset="UTF-8" />
-    <title>MixUp - Responsive HTML 5 template</title>
-    <!-- mobile responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../../ms-icon-144x144.html">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body class="active-preloader-ovh">
+ ?>
 
-<div class="preloader"><div class="spinner"></div></div> <!-- /.preloader -->
+<?php 	include "includes/header.php" ?>
+<!-- Page Banner Start -->
+        <section class="page-banner-area bgs-cover py-135 rpy-100" style="background-image: url(<?=$section1['image_1']?>);">
+            <div class="container">
+                <div class="banner-inner text-white text-center">
+                    <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
+                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item active">Contact Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Page Banner End -->
+        
 
+        <!-- Contact Info Area start -->
+        <section class="contact-page-info pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+            <div class="container">
+                <div class="row text-center mb-35 justify-content-center wow fadeInUp delay-0-2s">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title mb-25">
+                            <span class="sub-title mb-15">Need any Helps</span>
+                            <h2>Contact Informations</h2>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="contact-info-box wow fadeInUp delay-0-2s">
+                            <div class="icon"><i class="fal fa-map-marker-alt"></i></div>
+                            <h4>Locations</h4>
+                            <span>553 Main Street, 2nd - Block, New York 32500</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="contact-info-box wow fadeInUp delay-0-3s">
+                            <div class="icon"><i class="fal fa-envelope-open"></i></div>
+                            <h4>Email Us</h4>
+                            <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#bccfc9ccccd3cec8d5c8d5d2dad3fcdbd1ddd5d092dfd3d1"><span class="__cf_email__" data-cfemail="2f5c5a5f5f405d5b465b464149406f48424e4643014c4042">[email&#160;protected]</span></a><br>
+                            <a href="http://www.itservice.net/">www.itservice.net</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="contact-info-box wow fadeInUp delay-0-4s">
+                            <div class="icon"><i class="fal fa-phone-plus"></i></div>
+                            <h4>Locations</h4>
+                            <span>Mobile : <a href="callto:+000(123)45667">+000 (123) 45 667</a></span>
+                            <span>Teliphone : <a href="callto:+1234566">+1234566</a></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="contact-info-box wow fadeInUp delay-0-5s">
+                            <div class="icon"><i class="fal fa-clock"></i></div>
+                            <h4>Working Hour</h4>
+                            <b>Monday _ Friday,</b>
+                            <span>08:00am - 06:00pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Info Area end -->
+        
+        
+        <!-- Location Map Area Start -->
+        <div class="contact-page-map wow fadeInUp delay-0-2s">
+            <div class="our-location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m10!1m3!1d142190.2862584524!2d-74.01298319978558!3d40.721725351435126!2m1!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1663473911885!5m2!1sen!2sbd" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- Location Map Area End -->
+        
+        
+        <!-- Contact Form Start -->
+        <section class="contact-page-form pb-130 rpb-100">
+            <div class="container">
+                <div class="contact-form-wrap form-style-two bgc-lighter wow fadeInUp delay-0-2s">
+                    <div class="row text-center mb-35 justify-content-center">
+                        <div class="col-xl-9 col-lg-11">
+                            <div class="section-title mb-25 wow fadeInUp delay-0-2s">
+                                <span class="sub-title mb-15">Get In Touch</span>
+                                <h2>Send Us  Message</h2>
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
+                        </div>
+                    </div>
+                    <form id="contactForm" class="contactForm" action="https://demo.webtend.net/html/jeena/assets/php/form-process.php" name="contactForm" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" class="form-control" value="" placeholder="Full name" required data-error="Please enter your name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="phone_number" name="phone_number" class="form-control" value="" placeholder="Phone Number" required data-error="Please enter your Phone Number">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" class="form-control" value="" placeholder="Email Address" required data-error="Please enter your Email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="subject" name="subject" class="form-control" value="" placeholder="Subject" required data-error="Please enter your Subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message" required data-error="Please enter your Message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-group text-center mb-0">
+                                    <button type="submit" class="theme-btn style-two">send message <i class="far fa-long-arrow-right"></i></button>
+                                    <div id="msgSubmit" class="hidden"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Form End -->
+        
 
-
-
-
-
-<div class="inner-banner">
-    <div class="thm-container clearfix">
-        <div class="title pull-left">
-            <h3>Contact</h3>
-        </div><!-- /.title pull-left -->
-        <div class="bradcumb pull-right">
-            <a href="main">Home</a><!--
-            --><span class="sep">/</span><!--
-            --><span class="page-name">Contact</span>
-        </div><!-- /.bradcumb -->
-    </div><!-- /.thm-container clearfix -->
-</div><!-- /.inner-banner -->
-
-<section class="contact-page-content gray-bg sec-pad">
-    <div class="thm-container">
-        <div class="row">
-            <div class="col-md-7">
-                <form action="http://layerdrops.com/mixup/mixup-main/inc/sendemail.php" class="contact-form">
-                    <input type="text" placeholder="Your name" name="name" />
-                    <input type="text" placeholder="Email address"  name="email" />
-                    <textarea name="message" placeholder="Write message here"></textarea>
-                    <button type="submit" class="hvr-sweep-to-right">Send Message</button>
-                </form><!-- /.contact-form -->
-            </div><!-- /.col-md-7 -->
-            <div class="col-md-5">
-                <div class="contact-info">
-                    <span>Contact us</span>
-                    <h3>Do you have any question? don’t hesitate to contact with us </h3>
-                    <div class="single-contact-info">
-                        <h4>Call us for imiditate support on this number</h4>
-                        <p>+ 666 888 22 444</p>
-                    </div><!-- /.single-contact-info -->
-                    <div class="single-contact-info">
-                        <h4>Send us email for any kind of inquiry</h4>
-                        <p>info@mixup.com</p>
-                    </div><!-- /.single-contact-info -->
-                </div><!-- /.contact-info -->
-            </div><!-- /.col-md-5 -->
-        </div><!-- /.row -->
-    </div><!-- /.thm-container -->
-</section><!-- /.contact-page-content -->
-
-<div 
-  class="google-map" 
-  id="contact-google-map" 
-  data-map-lat="44.712784" 
-  data-map-lng="-72.005941" 
-  data-icon-path="img/map-marker.png"
-  data-map-title="Brooklyn, New York, United Kingdom"
-  data-map-zoom="13"
-  data-markers='{
-            "marker-1": [44.712784, -72.005941, "<h4>Main Office</h4><p>Babylon Branch , Lindenhurst, UK</p>"]
-        }'>
-
- </div>
-<!-- <div class="contact-map-img-box text-center gray-bg sec-pad pt0">
-    <img src="img/map-img.png" alt="Awesome Image"/>
-</div> --><!-- /.contact-map-img-box -->
-
-
-
-
-
-<div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>                    
-
-<script src="js/jquery.js"></script>
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/custom.js"></script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGVCIwbinX0ILIm8KundVXgzkX_yPLsgU"></script>
-<!-- google map helper -->  
-<script src="js/gmaps.js"></script>
-<script src="js/map-helper.js"></script>
-
-</body>
-<?php include 'includes/footer.php' ?>
-
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:14 GMT -->
-</html>
+<?php 	include "includes/footer.php" ?>

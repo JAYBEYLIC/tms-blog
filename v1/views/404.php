@@ -1,71 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<?php include 'includes/header.php' ?>
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:14 GMT -->
+<html lang="zxx">
+
+<!-- Mirrored from demo.webtend.net/html/jeena/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:44:56 GMT -->
 <head>
-    <meta charset="UTF-8" />
-    <title>MixUp - Responsive HTML 5 template</title>
-    <!-- mobile responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../../ms-icon-144x144.html">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Jeena - IT solutions & Services HTML Template || 404 Error</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
-<body class="active-preloader-ovh">
+<body>
+    <div class="page-wrapper">
 
-<div class="preloader"><div class="spinner"></div></div> <!-- /.preloader -->
+        <!-- Preloader -->
+        <div class="preloader"><div class="custom-loader"></div></div>
 
-<section class="error-404 text-center gray-bg">
-    <div class="thm-container">
-        <h3>Oops! This page is not available</h3>
-        <p>Please go back to home and try to find out once again.</p>
-        <img src="img/404-img.png" alt="Awesome Image"/>
-    </div><!-- /.thm-container -->
-</section><!-- /.error-404 -->
+        <!-- 404 Error Area start -->
+        <section class="error-page-area py-80">
+            <div class="container">
+                <div class="error-page-content text-center">
+                    <div class="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s"><a href="index-2.html"><img src="assets/images/logos/logo-big.png" alt="Logo" title="Logo"></a></div>
+                    <div class="image mb-80 rmb-55 wow fadeInUp delay-0-4s">
+                        <img src="assets/images/background/404.png" alt="Error">
+                    </div>
+                    <div class="row justify-content-center wow fadeInUp delay-0-2s">
+                        <div class="col-xl-8 col-lg-10">
+                            <div class="section-title mb-20">
+                                <h2>OPPS! This Pages Are Can’t Be Found </h2>
+                            </div>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded</p>
+                        </div>
+                    </div>
+                    <div class="btn-social pt-15 wow fadeInUp delay-0-4s">
+                       <a href="index-2.html" class="theme-btn mb-30 mx-2">Go to Home <i class="fas fa-long-arrow-right"></i></a>
+                        <div class="social-style-two mb-30 mx-2">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 404 Error Area end -->
+        
+        
+        <!-- Scroll Top Button -->
+        <button class="scroll-top scroll-to-target" data-target="html"><span class="fas fa-angle-double-up"></span></button>
 
-<div class="error-404-bottom">
-    <div class="inner">
-        <div class="thm-container text-center">
-            <a href="main" class="btn-404">go back to home</a>
-        </div><!-- /.thm-container -->
-    </div><!-- /.inner -->
-</div><!-- /.error-404-bottom -->
-          
-
-<script src="js/jquery.js"></script>
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/custom.js"></script>
-
-
+    </div>
+    <!--End pagewrapper-->
+   
+    
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Appear Js -->
+    <script src="assets/js/appear.min.js"></script>
+    <!-- Slick -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Image Loader -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Circle Progress -->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW Animation -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom script -->
+    <script src="assets/js/script.js"></script>
 
 </body>
-<?php include 'includes/footer.php' ?>
 
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:14 GMT -->
+<!-- Mirrored from demo.webtend.net/html/jeena/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:44:59 GMT -->
 </html>

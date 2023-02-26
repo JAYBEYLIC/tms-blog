@@ -1,211 +1,257 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'includes/header.php' ?>
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:13 GMT -->
-<head>
-    <meta charset="UTF-8" />
-    <title>MixUp - Responsive HTML 5 template</title>
-    <!-- mobile responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../../ms-icon-144x144.html">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body class="active-preloader-ovh">
+<?php   
+$section1=selectContent($conn,"settings_team_section1",['visibility'=>'show'])[0];
 
-<div class="preloader"><div class="spinner"></div></div> <!-- /.preloader -->
+ ?>
 
-
-
-
-
-<div class="inner-banner">
-    <div class="thm-container clearfix">
-        <div class="title pull-left">
-            <h3>Our Team</h3>
-        </div><!-- /.title pull-left -->
-        <div class="bradcumb pull-right">
-            <a href="index.html">Home</a><!--
-            --><span class="sep">/</span><!--
-            --><span class="page-name">Pages</span><!--
-            --><span class="sep">/</span><!--
-            --><span class="page-name">Our Teams</span>
-        </div><!-- /.bradcumb -->
-    </div><!-- /.thm-container clearfix -->
-</div><!-- /.inner-banner -->
-
-<section class="team-style-one gray-bg team-page sec-pad">
-    <div class="thm-container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-5.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Georgie Atwill</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-6.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Jude Chittester</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-7.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Tobie Vanarsdall</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-8.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Clarinda Chmura</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-1.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Cythia Kuhry</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-2.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Ilda Astry</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-3.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Charla Gorell</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-style-one">
-                    <div class="img-box">
-                        <img src="img/team-1-4.jpg" alt="Awesome Image"/>
-                        <a href="#" class="view-more">View details</a>
-                    </div><!-- /.img-box -->
-                    <div class="text-box">
-                        <h3>Tiana Nakama</h3>
-                        <span class="position">Founder</span>
-                        <div class="social">
-                            <a href="#" class="fa fa-twitter"></a><!--
-                            --><a href="#" class="fa fa-google-plus"></a>
-                        </div><!-- /.social -->
-                    </div><!-- /.text-box -->
-                </div><!-- /.single-team-style-one -->
-            </div><!-- /.col-md-3 -->
-        </div><!-- /.row -->
-    </div><!-- /.thm-container -->
-</section><!-- /.team-style-one gray-bg-4 sec-pad -->
-
-
-
-
-<div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>                    
-
-<script src="js/jquery.js"></script>
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/custom.js"></script>
-
-</body>
-<?php include 'includes/footer.php' ?>
-
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:13 GMT -->
-</html>
+<?php 	include "includes/header.php" ?>
+ <!-- Page Banner Start -->
+        <section class="page-banner-area bgs-cover py-135 rpy-100" style="background-image: url(<?=$section1['image_1']?>);">
+            <div class="container">
+                <div class="banner-inner text-white text-center">
+                    <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
+                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item active">Team Member</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Page Banner End -->
+        
+        
+        <!-- Team Top Area start -->
+        <section class="team-top-area pt-75 rpt-45 rel z-2">
+            <div class="container">
+                <div class="row gap-80 align-items-center">
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="team-top-video mt-55 wow fadeInRight delay-0-2s">
+                            <img src="assets/images/team/team-page.jpg" alt="Team Page">
+                            <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play"><i class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="team-top-content mt-55 wow fadeInLeft delay-0-2s">
+                            <div class="section-title mb-30">
+                                <span class="sub-title mb-15">Dedicated Team Member</span>
+                                <h2>Our Team is Driven for your Success</h2>
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accue antium doloremque laudantium totam rem aperiam eaque epsaus inventore veritatis architecto beatae dicta explicabo.</p>
+                            <div class="team-circle-progress mt-35">
+                                <div class="circle-progress-counter">
+                                    <span class="h2">0</span>
+                                </div>
+                                <div class="content">
+                                    <h4>Clients Satisfaction</h4>
+                                    <p>On the other hand denounce with righteous indig nation and dislike men beguiled demoralize</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Top Area end -->
+        
+        
+        <!-- Team Area start -->
+        <section class="team-page-area py-130 rpy-100 rel z-1">
+            <div class="container">
+                <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+                    <span class="sub-title mb-15">Team Member</span>
+                    <h2>Amazing Team Members</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-2s">
+                            <img src="assets/images/team/member1.jpg" alt="Team">
+                            <h4>Johnathan P. Bailey</h4>
+                            <span class="designation">UX/UI Designer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-4s">
+                            <img src="assets/images/team/member2.jpg" alt="Team">
+                            <h4>Mark M. Hughes</h4>
+                            <span class="designation">Web Developer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-6s">
+                            <img src="assets/images/team/member3.jpg" alt="Team">
+                            <h4>Donald B. Mitchell</h4>
+                            <span class="designation">Software Engineer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-8s">
+                            <img src="assets/images/team/member4.jpg" alt="Team">
+                            <h4>Bennie N. Bannister</h4>
+                            <span class="designation">Senior Consultant</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-2s">
+                            <img src="assets/images/team/member5.jpg" alt="Team">
+                            <h4>Federico M. Upton</h4>
+                            <span class="designation">UX/UI Designer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-4s">
+                            <img src="assets/images/team/member6.jpg" alt="Team">
+                            <h4>Julio M. McDowell</h4>
+                            <span class="designation">Web Developer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-6s">
+                            <img src="assets/images/team/member7.jpg" alt="Team">
+                            <h4>Michael S. Pearson</h4>
+                            <span class="designation">Software Engineer</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team-member style-two wow fadeInUp delay-0-8s">
+                            <img src="assets/images/team/member8.jpg" alt="Team">
+                            <h4>Kenneth L. Booth</h4>
+                            <span class="designation">Senior Consultant</span>
+                            <div class="social-style-two">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="view-all-btn pt-30 text-center">
+                            <a href="team.html" class="theme-btn style-two">View All Member <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-shapes">
+                <img class="shape one" src="assets/images/team/team-shape-one.png" alt="Shape">
+                <img class="shape two" src="assets/images/team/team-shape-two.png" alt="Shape">
+            </div>
+        </section>
+        <!-- Team Area end -->
+        
+        
+         <!-- FAQs Area start -->
+        <section class="faq-area pb-130 rpb-100 rel z-1">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="faq-content rmb-65 wow fadeInLeft delay-0-2s">
+                            <div class="section-title mb-30">
+                                <span class="sub-title mb-15">Faqs</span>
+                                <h2>Frequently Asked Questions</h2>
+                            </div>
+                            <div class="faq-accordion style-two pt-20" id="faq-accordion">
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                            UX Principles Embedded Systems ?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                                        <div class="accordion-body">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                            Charity Conference Future Of Tech?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion">
+                                        <div class="accordion-body">
+                                            <p>Sed ut perspiciatis unde omniste natus voluptatem accusantium doloremque laudantium totam rem aperiam quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                            Simplify Your Color Palette With CSS ?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                                        <div class="accordion-body">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                            Build A Group Chat App With Vanilla JS ?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                                        <div class="accordion-body">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-images wow fadeInRight delay-0-2s">
+                            <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo-one2.png" alt="Logo" title="Logo"></a></div>
+                            <img src="assets/images/about/faq-right.jpg" alt="FAQs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQs Area end -->
+<?php 	include "includes/footer.php" ?>

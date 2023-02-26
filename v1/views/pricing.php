@@ -1,206 +1,292 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'includes/header.php' ?>
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/pricing.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:13 GMT -->
-<head>
-    <meta charset="UTF-8" />
-    <title>MixUp - Responsive HTML 5 template</title>
-    <!-- mobile responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../../ms-icon-144x144.html">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body class="active-preloader-ovh">
+<?php   
+$section1=selectContent($conn,"settings_pricing_section1",['visibility'=>'show'])[0];
 
-<div class="preloader"><div class="spinner"></div></div> <!-- /.preloader -->
+ ?>
 
+<?php 	include "includes/header.php" ?>
 
-
-
-
-
-<div class="inner-banner">
-    <div class="thm-container clearfix">
-        <div class="title pull-left">
-            <h3>Pricing</h3>
-        </div><!-- /.title pull-left -->
-        <div class="bradcumb pull-right">
-            <a href="main">Home</a><!--
-            --><span class="sep">/</span><!--
-            --><span class="page-name">Pricing</span>
-        </div><!-- /.bradcumb -->
-    </div><!-- /.thm-container clearfix -->
-</div><!-- /.inner-banner -->
-
-
-<section class="pricing-style-one sec-pad gray-bg pricing-page">
-    <div class="thm-container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-pricing text-center">
-                    <h3>Small Plan</h3>
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">25</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing -->
-            </div><!-- /.col-md-4 -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-pricing text-center popular">
-                    <div class="discount-label">12% Discount</div><!-- /.discount-label -->
-                    <h3>Startup Plan</h3>
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">35</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing -->
-            </div><!-- /.col-md-4 -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-pricing text-center">
-                    <h3>Business Plan</h3>
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">55</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing -->
-            </div><!-- /.col-md-4 -->
-        </div><!-- /.row -->
-    </div><!-- /.thm-container -->
-</section><!-- /.faq-style-one -->
-
-<div class="price-style-two sec-pad pt0 gray-bg">
-    <div class="thm-container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-pricing-style-two">
-                    <h3>Small Plan</h3>
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">25</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing-style-two -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-pricing-style-two popular">
-                    <h3>Startup Plan</h3>
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">35</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing-style-two -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-pricing-style-two">
-                    <h3>Business Plan</h3>
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">45</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing-style-two -->
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-pricing-style-two">
-                    <h3>Professional Plan</h3>
-                    <div class="price-box">
-                        <p><span class="currency">$</span><span class="price-amount">55</span><span class="duration">/mo</span></p>
-                    </div><!-- /.price-box -->
-                    <ul class="list-items">
-                        <li>10 pages</li>
-                        <li>500 gb storage</li>
-                        <li>10 sdd Database</li>
-                        <li>Free coustom domain</li>
-                        <li>24/7 free support</li>
-                    </ul><!-- /.list-items -->
-                    <a href="#" class="price-btn">Select the plan</a>
-                </div><!-- /.single-pricing-style-two -->
-            </div><!-- /.col-md-3 -->
-        </div><!-- /.row -->
-    </div><!-- /.thm-container -->
-</div><!-- /.price-style-two -->
-
-
-
-
-
-
-<div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>                    
-
-<script src="js/jquery.js"></script>
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/custom.js"></script>
-
-
-
-</body>
-<?php include 'includes/footer.php' ?>
-<!-- Mirrored from layerdrops.com/mixup/mixup-main/pricing.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Jan 2023 12:23:13 GMT -->
-</html>
+ <!-- Page Banner Start -->
+        <section class="page-banner-area bgs-cover py-135 rpy-100" style="background-image: url(<?=$section1['image_1']?>);">
+            <div class="container">
+                <div class="banner-inner text-white text-center">
+                    <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
+                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item active">Price Package</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Page Banner End -->
+        
+        
+        <!-- Pricing Plan Area start -->
+        <section class="price-plan-page-top pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+            <div class="container">
+                <div class="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                    <span class="sub-title mb-15">Amazing Pricing Plan</span>
+                    <h2>Affordable Pricing Packages</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item style-three wow fadeInUp delay-0-2s">
+                            <span class="badge">Best Package</span>
+                            <h4 class="title">Basic Plan</h4>
+                            <span class="price-count">5 Services Included</span>
+                            <span class="price">29.85</span>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                <li><a href="#">Web Design & Development</a></li>
+                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                <li><a href="#">User & Market Research</a></li>
+                            </ul>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item style-three wow fadeInUp delay-0-4s">
+                            <span class="badge">Best Package</span>
+                            <h4 class="title">standard Plan</h4>
+                            <span class="price-count">7 Services Included</span>
+                            <span class="price">49.64</span>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                <li><a href="#">Web Design & Development</a></li>
+                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                <li><a href="#">User & Market Research</a></li>
+                            </ul>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing-plan-item style-three wow fadeInUp delay-0-6s">
+                            <span class="badge">Best Package</span>
+                            <h4 class="title">Golden Package</h4>
+                            <span class="price-count">7 Services Included</span>
+                            <span class="price">98.73</span>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                <li><a href="#">Web Design & Development</a></li>
+                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                <li><a href="#">User & Market Research</a></li>
+                            </ul>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Plan Area end -->
+        
+        
+        <!-- Pricing Plan Area start -->
+        <section class="price-plan-page-middle bgc-lighter pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-8 col-md-10">
+                        <div class="pricing-tab-wrap mt-75 wow fadeInUp delay-0-2s">
+                            <div class="section-title mb-25">
+                                <span class="sub-title mb-15">Amazing Pricing Plan</span>
+                                <h2>Affordable Pricing Packages</h2>
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus voluptate accusantium doloremque laudantium totam aperaus abillo inventore veritatis quasi architecto</p>
+                            <ul class="nav pricing-tab mt-15" role="tablist">
+                                <li>
+                                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#monthly">Monthly <i class="fas fa-long-arrow-right"></i></button>
+                                </li>
+                                <li>
+                                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#yearly">Yearly <i class="fas fa-long-arrow-right"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="tab-content wow fadeInUp delay-0-4s">
+                            <div class="tab-pane fade show active" id="monthly">
+                                <div class="row">
+                                     <div class="col-md-6">
+                                        <div class="pricing-plan-item">
+                                            <span class="badge">Best Package</span>
+                                            <h4 class="title">standard Plan</h4>
+                                            <span class="price-count">7 Services Included</span>
+                                            <span class="price">49.64</span>
+                                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                                            <h5>This Plan Included :</h5>
+                                            <ul>
+                                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                                <li><a href="#">Web Design & Development</a></li>
+                                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                                <li><a href="#">User & Market Research</a></li>
+                                                <li><a href="#">UX/UI Strategy (Design & Develop)</a></li>
+                                                <li><a href="#">Product Engineering</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="pricing-plan-item">
+                                            <span class="badge">Best Package</span>
+                                            <h4 class="title">Golden Package</h4>
+                                            <span class="price-count">7 Services Included</span>
+                                            <span class="price">98.73</span>
+                                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                                            <h5>This Plan Included :</h5>
+                                            <ul>
+                                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                                <li><a href="#">Web Design & Development</a></li>
+                                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                                <li><a href="#">User & Market Research</a></li>
+                                                <li><a href="#">UX/UI Strategy (Design & Develop)</a></li>
+                                                <li><a href="#">Product Engineering</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade yearly" id="yearly">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="pricing-plan-item">
+                                            <span class="badge">Best Package</span>
+                                            <h4 class="title">standard Plan</h4>
+                                            <span class="price-count">7 Services Included</span>
+                                            <span class="price">49.64</span>
+                                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                                            <h5>This Plan Included :</h5>
+                                            <ul>
+                                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                                <li><a href="#">Web Design & Development</a></li>
+                                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                                <li><a href="#">User & Market Research</a></li>
+                                                <li><a href="#">UX/UI Strategy (Design & Develop)</a></li>
+                                                <li><a href="#">Product Engineering</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="pricing-plan-item">
+                                            <span class="badge">Best Package</span>
+                                            <h4 class="title">Golden Package</h4>
+                                            <span class="price-count">7 Services Included</span>
+                                            <span class="price">98.73</span>
+                                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a>
+                                            <h5>This Plan Included :</h5>
+                                            <ul>
+                                                <li><a href="#">Premium Quality Supports (24/7)</a></li>
+                                                <li><a href="#">IT Consultations (Business Growth)</a></li>
+                                                <li><a href="#">Web Design & Development</a></li>
+                                                <li><a href="#">Search Engine Optimization (SEO )</a></li>
+                                                <li><a href="#">User & Market Research</a></li>
+                                                <li><a href="#">UX/UI Strategy (Design & Develop)</a></li>
+                                                <li><a href="#">Product Engineering</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price-page-shapes">
+                <img class="shape one" src="assets/images/shapes/price-page-bottom.png" alt="Shape">
+                <img class="shape two" src="assets/images/shapes/price-page-right.png" alt="Shape">
+            </div>
+        </section>
+        <!-- Pricing Plan Area end -->
+        
+        
+        <!-- Pricing Plan Area start -->
+        <section class="price-plan-page-bottom pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+            <div class="container">
+                <div class="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+                    <span class="sub-title mb-15">Amazing Pricing Plan</span>
+                    <h2>Affordable Pricing Packages</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-2s">
+                            <h4 class="title">Basic Plan</h4>
+                            <span class="price-count">5 Services Included</span>
+                            <span class="price">0.0</span>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a><br>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Quality Supports</a></li>
+                                <li><a href="#">IT Consultations</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Search Engine (SEO )</a></li>
+                                <li><a href="#">Market Research</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-2s">
+                            <h4 class="title">Standard Plan</h4>
+                            <span class="price-count">7 Services Included</span>
+                            <span class="price">19.5</span>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a><br>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Quality Supports</a></li>
+                                <li><a href="#">IT Consultations</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Search Engine (SEO )</a></li>
+                                <li><a href="#">Market Research</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Mobile Applications</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-2s">
+                            <h4 class="title">silver Plan</h4>
+                            <span class="price-count">7 Services Included</span>
+                            <span class="price">48.6</span>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a><br>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Quality Supports</a></li>
+                                <li><a href="#">IT Consultations</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Search Engine (SEO )</a></li>
+                                <li><a href="#">Market Research</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Mobile Applications</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="pricing-plan-item wow fadeInUp delay-0-2s">
+                            <h4 class="title">golden Plan</h4>
+                            <span class="price-count">7 Services Included</span>
+                            <span class="price">99.3</span>
+                            <a href="pricing.html" class="theme-btn style-two">Choose Package <i class="fas fa-long-arrow-right"></i></a><br>
+                            <h5>This Plan Included :</h5>
+                            <ul>
+                                <li><a href="#">Quality Supports</a></li>
+                                <li><a href="#">IT Consultations</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Search Engine (SEO )</a></li>
+                                <li><a href="#">Market Research</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Mobile Applications</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Plan Area end -->
+      
+<?php 	include "includes/footer.php" ?>

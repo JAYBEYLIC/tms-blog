@@ -31,40 +31,44 @@ if (count($uri) > 2) {
   switch ($uri[1]) {
 
 
-  case 'main':
-  include APP_PATH."/views/home.php";
-  break;
-
-  case 'features':
-    include APP_PATH."/views/features.php";
-    break;
-
-    case 'jayhome':
-      include APP_PATH."/views/index1.php";
+    case '':
+     include APP_PATH."/views/index.php";
       break;
 
-      case 'jaynews':
-        include APP_PATH."/views/news.php";
+  case 'main':
+  include APP_PATH."/views/jayhome.php";
+  break;
+
+  case 'explore':
+    include APP_PATH."/views/services.php";
+    break;
+
+    case 'plan':
+      include APP_PATH."/views/projects.php";
+      break;
+
+      case 'blogs':
+        include APP_PATH."/views/blog.php";
         break;
 
-      case 'jayprice':
-        include APP_PATH."/views/pricing.php";
+      case 'about':
+        include APP_PATH."/views/about.php";
         break;
 
         case 'info':
           include APP_PATH."/views/contact.php";
           break;
 
-        case 'morein':
-          include APP_PATH."/views/newsdetails.php";
+        case 'team':
+          include APP_PATH."/views/team.php";
           break;
 
         case 'faq':
-          include APP_PATH."/views/faq.php";
+          include APP_PATH."/views/faqs.php";
           break;
 
-        case '404':
-          include APP_PATH."/views/404.php";
+        case 'pricing':
+          include APP_PATH."/views/pricing.php";
           break;
 
         case 'review':
@@ -74,6 +78,11 @@ if (count($uri) > 2) {
         case 'team':
           include APP_PATH."/views/team.php";
           break;
+
+          default:
+          include APP_PATH."/views/404.php";
+            break;
+        
 }
 
 }
