@@ -34,26 +34,20 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="contact-info-box wow fadeInUp delay-0-2s">
-                            <div class="icon"><i class="fal fa-map-marker-alt"></i></div>
-                            <h4>Locations</h4>
-                            <span>553 Main Street, 2nd - Block, New York 32500</span>
-                        </div>
-                    </div>
+                    
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="contact-info-box wow fadeInUp delay-0-3s">
                             <div class="icon"><i class="fal fa-envelope-open"></i></div>
                             <h4>Email Us</h4>
-                            <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#bccfc9ccccd3cec8d5c8d5d2dad3fcdbd1ddd5d092dfd3d1"><span class="__cf_email__" data-cfemail="2f5c5a5f5f405d5b465b464149406f48424e4643014c4042">[email&#160;protected]</span></a><br>
-                            <a href="http://www.itservice.net/">www.itservice.net</a>
+                            <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#bccfc9ccccd3cec8d5c8d5d2dad3fcdbd1ddd5d092dfd3d1"><span class="__cf_email__" data-cfemail="2f5c5a5f5f405d5b465b464149406f48424e4643014c4042">[astrocybernet&#160;@yahoo.com]</span></a><br>
+                            <a href="http://www.itservice.net/">www.astrocybenet.org</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="contact-info-box wow fadeInUp delay-0-4s">
                             <div class="icon"><i class="fal fa-phone-plus"></i></div>
-                            <h4>Locations</h4>
-                            <span>Mobile : <a href="callto:+000(123)45667">+000 (123) 45 667</a></span>
+                            <h4>Contact</h4>
+                            <span>Mobile : <a href="callto:+000(123)45667">Undisclosed</a></span>
                             <span>Teliphone : <a href="callto:+1234566">+1234566</a></span>
                         </div>
                     </div>
@@ -72,11 +66,11 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
         
         
         <!-- Location Map Area Start -->
-        <div class="contact-page-map wow fadeInUp delay-0-2s">
+        <!-- <div class="contact-page-map wow fadeInUp delay-0-2s">
             <div class="our-location">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m10!1m3!1d142190.2862584524!2d-74.01298319978558!3d40.721725351435126!2m1!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1663473911885!5m2!1sen!2sbd" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
+        </div> -->
         <!-- Location Map Area End -->
         
         
@@ -93,50 +87,162 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                             <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
                         </div>
                     </div>
-                    <form id="contactForm" class="contactForm" action="https://demo.webtend.net/html/jeena/assets/php/form-process.php" name="contactForm" method="post">
+                    <div id="contactForm" class="contactForm"  name="contactForm" >
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="name" name="name" class="form-control" value="" placeholder="Full name" required data-error="Please enter your name">
+                                    <input type="text" id="nameInput"  name="name" class="form-control" value="" placeholder="Full name" required data-error="Please enter your name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="phone_number" name="phone_number" class="form-control" value="" placeholder="Phone Number" required data-error="Please enter your Phone Number">
+                                    <input type="text" id="numberInput" name="phone_number" class="form-control" value="" placeholder="Phone Number" required data-error="Please enter your Phone Number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" id="email" name="email" class="form-control" value="" placeholder="Email Address" required data-error="Please enter your Email">
+                                    <input type="email" id="emailInput" name="email" class="form-control" value="" placeholder="Email Address" required data-error="Please enter your Email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="subject" name="subject" class="form-control" value="" placeholder="Subject" required data-error="Please enter your Subject">
+                                    <input type="text" id="subjectInput" name="subject" class="form-control" value="" placeholder="Subject" required data-error="Please enter your Subject">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message" required data-error="Please enter your Message"></textarea>
+                                    <textarea name="message" id="messageInput" class="form-control" rows="3" placeholder="Message" required data-error="Please enter your Message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-xl-12">
                                 <div class="form-group text-center mb-0">
-                                    <button type="submit" class="theme-btn style-two">send message <i class="far fa-long-arrow-right"></i></button>
+                                    <button type="submit" onclick="submitContactFunc(this)" class="theme-btn style-two"><i id="defIcon" class="fa fa-paper-plane"></i> <i id="loadIcon" style="display:none" class="fa fa-spinner fa-spin"></i>send message <i class="far fa-long-arrow-right"></i></button>
                                     <div id="msgSubmit" class="hidden"></div>
                                 </div>
                             </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Contact Form End -->
-        
+              <script type="text/javascript">
+
+          nameInput = document.getElementById("nameInput")
+          emailInput = document.getElementById("emailInput")
+          numberInput = document.getElementById("numberInput")
+          subjectInput = document.getElementById("subjectInput")
+          messageInput = document.getElementById("messageInput")
+
+
+          function submitContactFunc(e){
+            // console.log(event.target)
+
+            name = nameInput.value
+            email = emailInput.value
+            number = numberInput.value
+            message = messageInput.value
+            subject = subjectInput.value
+            var error = [];
+
+
+            defIcon = e.querySelector("#defIcon");
+            loadIcon = e.querySelector("#loadIcon");
+
+            if(name.length < 1 || name ==""){
+              error.push(true);
+            }
+
+            if(email.length < 1 || email ==""){
+              error.push(true);
+            }
+
+            if(number.length < 1 || subject ==""){
+              error.push(true);
+            }
+
+            if(subject.length < 1 || subject ==""){
+              error.push(true);
+            }
+
+            if(message.length < 1 || message ==""){
+              error.push(true);
+            }
+
+
+            if(error.length < 1){
+
+              defIcon.style.display = "none"
+              loadIcon.style.display = "";
+              e.disabled = true;
+
+              var url = "/contact-us-mail";
+
+              var param = {
+                name,
+                email,
+                number,
+                message,
+                subject,
+              }
+
+              // console.log("i got here1")
+              ajaxPost(url, param, (err, res) => {
+
+                // console.log("i got here2")
+                // console.log(err)
+                // console.log(res)
+
+
+                var returnData = JSON.parse(res);
+                if(returnData.success){
+
+                  e.disabled = false;
+
+                  defIcon.style.display = ""
+                  loadIcon.style.display = "none";
+                  swal.fire("Success!","Message Sent Successfully, we'll get in touch with you soonest","success");
+                  nameInput.value ="";
+                  emailInput.value ="";
+                  messageInput.value="";
+                  numberInput.value="";
+                  subjectInput.value="";
+
+
+                 //  swal({
+                 //   title: "Success",
+                 //   text: returnData.success,
+                 //   icon: "success",
+                 // })
+                 // window.location("/contact")
+                }else if (returnData.failed) {
+                  e.disabled = false;
+
+                  defIcon.style.display = ""
+                  loadIcon.style.display = "none";
+                  swal.fire("Failed!","Sorry, an error occured, please try again.","warning");
+                 //  swal({
+                 //   title: "Error",
+                 //   text: returnData.failed,
+                 //   icon: "warning",
+                 // })
+                }
+              })
+
+            }else{
+              alert("Please Input Required Fields")
+            }
+
+
+
+          }
+
+        </script>
 
 <?php 	include "includes/footer.php" ?>
+

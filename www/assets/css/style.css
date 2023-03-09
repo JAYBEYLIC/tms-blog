@@ -8634,7 +8634,7 @@ blockquote {
 .footer-logo {
   padding: 25px 30px;
   display: inline-block;
-  background: var(--secondary-color);
+  background-color:#f6f6f6;
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
   clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%); }
 

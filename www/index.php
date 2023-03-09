@@ -8,7 +8,7 @@ session_start();
 #Define App Path
 define("D_PATH", dirname(dirname(__FILE__)));
 CONST APP_PATH = D_PATH."/v1";
-#load database
+#load databaseC
 #load Controllers(functions)
 include D_PATH."/.env/config.php";
 #load routes
@@ -19,17 +19,23 @@ require APP_PATH."/auth/auth_controller/controller.php";
 // require APP_PATH."/routes/router.php";
 
 //
-// $websiteInfo = selectContent($conn, "read_website_info", ['visibility' => 'show']);
-// $websiteStyle = selectContent($conn, "website_status", ['visibility' => 'show']);
+$websiteInfo = selectContent($conn, "settings_website_info", ['visibility' => 'show']);
+// $websiteStyle = selectContent($conn, "settings_website_status", ['visibility' => 'show']);
 // // $fetchFavicon = selectContent($conn, "read_favicon", ['visibility' => 'show']);
 //
 //
 // // $_SESSION['color'] = "green";
 //
-// $site_name = $websiteInfo[0]['input_name'];
-// $site_email = $websiteInfo[0]['input_email'];
-// $site_phone = $websiteInfo[0]['input_phone_number'];
-// $site_address = $websiteInfo[0]['input_address'];
+
+$site_name = $websiteInfo[0]['input_name'];
+$site_email = $websiteInfo[0]['input_email'];
+$site_email_from = $websiteInfo[0]['input_email_from'];
+$site_email_smtp_host = $websiteInfo[0]['input_email_smtp_host'];
+$site_email_smtp_secure_type = $websiteInfo[0]['input_email_smtp_secure_type'];
+$site_email_smtp_port = $websiteInfo[0]['input_email_smtp_port'];
+$site_email_password = $websiteInfo[0]['input_email_password'];
+$site_phone = $websiteInfo[0]['input_phone_number'];
+$site_address = $websiteInfo[0]['input_address'];
 // $fbLink = $websiteInfo[0]['input_facebook'];
 // $igLink = $websiteInfo[0]['input_instagram'];
 // $linkedinLink = $websiteInfo[0]['input_linkedin'];

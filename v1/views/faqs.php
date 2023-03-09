@@ -33,7 +33,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                     <li class="nav-item">
                         <a class="nav-link active" data-bs-toggle="tab" href="#faq-tab1">General</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#faq-tab2">IT Consulting</a>
                     </li>
                     <li class="nav-item">
@@ -53,26 +53,26 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="tab" href="#faq-tab8">Payments</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <div class="tab-content faq-accordion style-three" id="faq-accordion">
                     <div class="tab-pane fade show active" id="faq-tab1">
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1">
-                                    Build A Group Chat App With Vanilla JS, Twilio And Node.js
+                                    How Do i Proceed ?
                                 </button>
                             </h5>
                             <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit.</p>
+                                    <p>Once you contact us for genuine hackers for hire, our professional phone spy agent will ask for some essential information about the objective before you make payment for us to get started.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h5 class="accordion-header">
-                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse2">
-                                    Measuring The Performance Of Typefaces For Users Part Ukraine, A Charity Conference On The Future Of Tech ?
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    Will My identity Remain Anonymous?
                                 </button>
                             </h5>
                             <div id="collapse2" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion">
@@ -80,11 +80,11 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                    <hr>
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment blinded by desire, that they cannot foresee the pain and trouble bound</p>
+                                            <p>100% Strictly Confidential</p>
                                             <ul class="list-style-one my-15">
-                                                <li>Comprehensive UI/UX Assessment</li>
-                                                <li>Deep Contextual Research and 360° Planning</li>
-                                                <li>Wireframing & Prototyping</li>
+                                                <li>Yes we maintain strict confidentiality</li>
+                                                <li>Deep Contextual Research and 360° hack Process</li>
+                                                <li>undisclosed Remote Alorgithms</li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6 my-15 text-lg-end">
@@ -97,77 +97,30 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3">
-                                    How To Apply UX Principles To Embedded Systems: Learnings From The Field ?
+                                    What is the refund Policy ?
                                 </button>
                             </h5>
                             <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit.</p>
+                                    <p>If you are not satisfied with the provided service which you received, you can contact us within 30 days of the service provided and we will fully refund you. Normally it takes 3 to 5 business days to process the refund.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4">
-                                    Smashing Podcast Episode 47 With Sara Soueidan: Why Does Accessibility Matter?
-                                </button>
-                            </h5>
-                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
+                            <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5">
-                                    How To Apply UX Principles To Embedded Systems: Learnings From The Field ?
+                                    How do i process the Hacked Target Device ?
                                 </button>
                             </h5>
                             <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
+                                    <p>We have a proprietary app which we would give you a login details to access and view your targets back-end which enables you to start monitoring and mirroring your target</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6">
-                                    Open-Source 3dicons Library: Case Study And Free Downloads ?
-                                </button>
-                            </h5>
-                            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7">
-                                    Rethinking Server-Timing As A Critical Monitoring Tool ?
-                                </button>
-                            </h5>
-                            <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8">
-                                    How To Use Google CrUX To Analyze And Compare The Performance Of JS Frameworks ?
-                                </button>
-                            </h5>
-                            <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
-                                </div>
-                            </div>
-                        </div>
+                           
                     </div>
-                    <div class="tab-pane fade" id="faq-tab2">
+                   <!--  <div class="tab-pane fade" id="faq-tab2">
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse10">
@@ -432,7 +385,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -448,7 +401,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                             <div class="section-title mb-30">
                                 <h3>Get In Touch With Us</h3>
                             </div>
-                            <form class="form-style-one" action="#" name="contact-form" method="post">
+                           <!--  <form class="form-style-one" action="#" name="contact-form" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -476,7 +429,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                     <div class="col-lg-6">

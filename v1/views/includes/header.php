@@ -12,7 +12,7 @@
     <!-- Title -->
     <title>Jay Home</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo1.jpg" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
     
@@ -47,7 +47,7 @@
                <div class="container">
                    <div class="header-top">
                        <ul>
-                            <li><i class="far fa-envelope"></i> <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#681b1d1818071a1c280f05090104460b0705"><span class="__cf_email__" data-cfemail="93e0e6e3e3fce1e7d3f4fef2faffbdf0fcfe">[email&#160;protected]</span></a></li>
+                            <li><i class="far fa-envelope"></i> <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#681b1d1818071a1c280f05090104460b0705"><span class="__cf_email__" data-cfemail="93e0e6e3e3fce1e7d3f4fef2faffbdf0fcfe">[Astrocybernethack@yahoo.com&#160;]</span></a></li>
                             <li><i class="far fa-phone"></i> <a href="callto:+000(123)45688">+1 (906) 984 9264</a></li>
                             <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li>
                             <li>
@@ -69,7 +69,10 @@
 
                     <div class="header-inner rel d-flex align-items-center">
                         <div class="logo-outer">
-                            <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo"></a></div>
+                         <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo"></a>
+                <!-- <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo" title="Logo"></a> -->
+
+                            </div>
                         </div>
 
                         <div class="nav-outer mx-auto clearfix">
@@ -95,23 +98,26 @@
                                         <li><a href="main">Home</a>
                                             
                                         </li>
-                                        <li class="dropdown"><a href="#">about</a>
-                                            <ul>
+
+                                        <li><a href="about">about us</a></li>
+                                        <!-- <li class="dropdown"><a href="#">about</a>
+                                            <ul>            
                                                 <li><a href="about">about us</a></li>
                                                 <li><a href="team">team</a></li>
-                                                <li><a href="faq">faqs</a></li>
                                                 <li><a href="pricing">pricing plan</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
 
                                         <li><a href="explore">services</a>
                                             
                                         </li>
+
+                                         <li><a href="faq">faqs</a></li>
                                         <li ><a href="plan">Project</a>
                                            
                                         </li>
                                         
-                                        <li ><a href="blogs">blog</a>
+                                        <!-- <li ><a href="blogs">blog</a> -->
                                             
                                         </li>
                                         <li ><a href="info">contact us</a>

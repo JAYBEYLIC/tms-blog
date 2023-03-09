@@ -75,6 +75,11 @@ if (count($uri) > 2) {
           include APP_PATH."/views/testimonial.php";
           break;
 
+          case 'contact-us-mail':
+          include APP_PATH."/views/mail.php";
+          break;
+
+
         case 'team':
           include APP_PATH."/views/team.php";
           break;

@@ -1,5 +1,8 @@
 <?php 
 $section1=selectContent($conn,"settings_project_section1",['visibility'=>'show'])[0];
+$section2=selectContent($conn,"settings_project_section2",['visibility'=>'show'])[0];
+$projects=selectContent($conn,"panel_projects",['visibility'=>'show']);
+$addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show']);
 
  ?>
 
@@ -28,85 +31,47 @@ $section1=selectContent($conn,"settings_project_section1",['visibility'=>'show']
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-10">
                         <div class="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-                            <h2>Let’s Insides About Recent Project Best Work Gallery</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae .</p>
+                            <h2><?=$section2['input_title']?></h2>
+                            <p><?=$section2['input_subtitle']?></p>
                         </div>
                     </div>
                 </div>
-                <div class="row project-active">
+                    <?php foreach ($projects as $key => $value): ?>
+                        <div class="row project-active">
                     <div class="col-xl-6 col-lg-8 item">
-                        <div class="project-grid-item wow fadeInUp delay-0-2s">
+                        <div class="<?=$value['fade-in']?>">
                             <div class="image">
-                                <img src="assets/images/projects/project-masonry1.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry1.jpg"></a>
+                                <img src="<?=$value['image_1']?>" alt="Project Masonry">
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html">Web Development</a></h5>
+                                <h5><a href="project-details.html"><?=$value['input_link_text']?></a></h5>
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
+
+                    <?php endforeach ?>
+                
+
+                        <?php foreach ($addition as $key => $value): ?>
+                              <div class="col-xl-3 col-lg-4 col-md-6 item">
                         <div class="project-grid-item wow fadeInUp delay-0-4s">
                             <div class="image">
-                                <img src="assets/images/projects/project-masonry2.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry2.jpg"></a>
+                                <img src="<?=$value['image_1']?>" alt="Project Masonry">
+                                <!-- <a class="plus" href="assets/images/projects/project-masonry2.jpg"></a> -->
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html">Mobile Applications</a></h5>
+                                <h5><a href="project-details.html"><?=$value['input_link_text']?></a></h5>
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
-                        <div class="project-grid-item wow fadeInUp delay-0-6s">
-                            <div class="image">
-                                <img src="assets/images/projects/project-masonry3.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry3.jpg"></a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="project-details.html">IT Consulting</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
-                        <div class="project-grid-item wow fadeInUp delay-0-2s">
-                            <div class="image">
-                                <img src="assets/images/projects/project-masonry4.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry4.jpg"></a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="project-details.html">Business Analysis</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
-                        <div class="project-grid-item wow fadeInUp delay-0-2s">
-                            <div class="image">
-                                <img src="assets/images/projects/project-masonry5.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry5.jpg"></a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="project-details.html">UX/UI Strategy</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
-                        <div class="project-grid-item wow fadeInUp delay-0-2s">
-                            <div class="image">
-                                <img src="assets/images/projects/project-masonry6.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry6.jpg"></a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="project-details.html">Digital Analysis</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
+
+                        <?php endforeach ?>
+
+                 
+                  
+                     <!-- <div class="col-xl-3 col-lg-4 col-md-6 item">
                         <div class="project-grid-item wow fadeInUp delay-0-2s">
                             <div class="image">
                                 <img src="assets/images/projects/project-masonry7.jpg" alt="Project Masonry">
@@ -117,20 +82,37 @@ $section1=selectContent($conn,"settings_project_section1",['visibility'=>'show']
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
+                    </div>  --> 
+                      <div class="col-xl-6 col-lg-8 item">
+                        <div class="project-grid-item wow fadeInUp delay-0-4s">
+                            <div class="image">
+                                <img src="../assets/images/projects/bitcoin-p.jpg" alt="Project Masonry">
+                                <a class="plus" href="../assets/images/projects/bitcoin-p.jpg"></a>
+                                <span style="color: #30F0B6;">A secret number that allows bitcoins to be spent</span>
+
+                            </div>
+                            <div class="content">
+                                <h5><a href="project-details.html">Bitcoin Private Key</a></h5>
+                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
+
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-xl-6 col-lg-8 item">
                         <div class="project-grid-item wow fadeInUp delay-0-2s">
                             <div class="image">
-                                <img src="assets/images/projects/project-masonry8.jpg" alt="Project Masonry">
-                                <a class="plus" href="assets/images/projects/project-masonry8.jpg"></a>
+                                <img src="../assets/images/projects/stocks-bonds.jpg" alt="Project Masonry">
+                                <a class="plus"  href="../assets/images/projects/stocks-bonds.jpg"></a>
+                                <span style="color: #30F0B6;">Buy and hold the best Companies</span>
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html">Mobile Application Development</a></h5>
+                                <h5><a href="project-details.html">Stock Investment</a></h5>
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
+                    <!-- <div class="col-xl-3 col-lg-4 col-md-6 item">
                         <div class="project-grid-item wow fadeInUp delay-0-2s">
                             <div class="image">
                                 <img src="assets/images/projects/project-masonry9.jpg" alt="Project Masonry">
@@ -141,8 +123,8 @@ $section1=selectContent($conn,"settings_project_section1",['visibility'=>'show']
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 item">
+                    </div> -->
+                    <!-- <div class="col-xl-3 col-lg-4 col-md-6 item">
                         <div class="project-grid-item wow fadeInUp delay-0-2s">
                             <div class="image">
                                 <img src="assets/images/projects/project-masonry10.jpg" alt="Project Masonry">
@@ -153,10 +135,10 @@ $section1=selectContent($conn,"settings_project_section1",['visibility'=>'show']
                                 <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="project-more-btn pt-30 text-center">
-                    <a href="project-grid.html" class="theme-btn style-two wow fadeInUp delay-0-2s">View More Gallery <i class="fas fa-long-arrow-right"></i></a>
+                    <a href="project-grid.html" class="theme-btn style-two wow fadeInUp delay-0-2s">Our Reviews Speaks <i class="fas fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </section>

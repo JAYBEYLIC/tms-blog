@@ -2,17 +2,17 @@
         <footer class="main-footer bgc-gray footer-white rel z-1">
             <div class="footer-cta-wrap">
                 <div class="container">
-                    <div class="footer-cta-inner bgs-cover" style="background-image: url(assets/images/footer/footer-cta-bg.jpg);">
+                    <div class="footer-cta-inner bgs-cover" style="background-image: url(../assets/images/footer/equi.jpg); ">
                         <div class="section-title wow fadeInLeft delay-0-2s">
                             <span class="sub-title">Need Any Consultations ?</span>
-                            <h2>We’re Ready to Growth IT Business</h2>
+                            <h2>Hacking has never been so simple</h2>
                         </div>
-                        <a href="contact.html" class="theme-btn style-three wow fadeInRight delay-0-2s">Get Free Quote <i class="fas fa-long-arrow-right"></i></a>
+                        <a href="contact.html" class="theme-btn style-three wow fadeInRight delay-0-2s">Get Started <i class="fas fa-long-arrow-right"></i></a>
                         <div class="hotline wow fadeInRight delay-0-2s">
                             <i class="fas fa-phone"></i>
                             <div class="content">
-                                <span>Hotline</span><br>
-                                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                                <span>Whatsapp</span><br>
+                                <a href="callto:+1(906)9849264">+1 (906) 984 9264</a>
                             </div>
                         </div>
                     </div>
@@ -23,27 +23,18 @@
                     <div class="col-xl-3 col-sm-6">
                         <div class="footer-widget widget_about wow fadeInUp delay-0-2s">
                             <div class="footer-logo mb-30">
-                                <a href="index-2.html"><img src="assets/images/logos/logo-one.png" alt="Logo"></a>
+                                <a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo"></a>
                             </div>
-                            <p>Sed perspiciatis unde omnste natus error voluptatem accusanti doloreue audantium totamrem aeriam.</p>
-                            <a href="about.html" class="read-more">Learn More Us <i class="fas fa-long-arrow-right"></i></a>
+                           
                         </div>
                     </div>
                     <div class="col-xl-3 col-sm-6 order-xl-2">
                         <div class="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
-                            <h4 class="footer-title">Newsletter</h4>
-                            <p>Sed perspiciatis unde omnste natus error voluptatem accusante.</p>
-                            <form action="#">
-                                <label for="email"><i class="far fa-envelope"></i></label>
-                                <input id="email" type="email" placeholder="support@gmail.com" required>
-                                <button>Sign Up</button>
-                            </form>
-                            <h5>Follow Us</h5>
                             <div class="social-style-one">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                 <p>Sed perspiciatis unde omnste natus error voluptatem accusanti doloreue audantium totamrem aeriam.</p>
+                            <a href="about.html" class="read-more">Learn More Us <i class="fas fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -53,13 +44,12 @@
                                 <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-3s">
                                     <h4 class="footer-title">Quick Links</h4>
                                     <ul class="list-style-two">
-                                        <li><a href="about.html">Company History</a></li>
-                                        <li><a href="about.html">About Company</a></li>
-                                        <li><a href="services.html">Latest Services</a></li>
-                                        <li><a href="project-grid.html">Popular Works</a></li>
-                                        <li><a href="faqs.html">Asked Questions</a></li>
-                                        <li><a href="blog.html">Blog & News</a></li>
-                                        <li><a href="contact.html">Contact us</a></li>
+                                        <li><a href="about.html">Home</a></li>
+                                        <li><a href="about.html">Services</a></li>
+                                        <li><a href="services.html">Projects</a></li>
+                                        <li><a href="project-grid.html">About Us</a></li>
+                                        <li><a href="faqs.html">Contact Us</a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -67,17 +57,17 @@
                                 <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
                                     <h4 class="footer-title">Services</h4>
                                     <ul class="list-style-two">
-                                        <li><a href="service-details.html">Product Design</a></li>
-                                        <li><a href="service-details.html">Design & Development</a></li>
-                                        <li><a href="service-details.html">UX/UI Strategy</a></li>
-                                        <li><a href="service-details.html">Search Engine</a></li>
-                                        <li><a href="service-details.html">IT Consulting</a></li>
-                                        <li><a href="service-details.html">Software Development</a></li>
-                                        <li><a href="service-details.html">Business Analysis</a></li>
+                                        <li><a href="service-details.html">Credit Repair</a></li>
+                                        <li><a href="service-details.html">Bitcoin Mining</a></li>
+                                        <li><a href="service-details.html">Passive Income</a></li>
+                                        <li><a href="service-details.html">Social media Recovery</a></li>
+                                        <li><a href="service-details.html">Stock Investment</a></li>
+                                        <li><a href="service-details.html">Track Phone/Spyware</a></li>
+                                        <li><a href="service-details.html">Hacking Softwares</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6 col-small">
+                            <!-- <div class="col-md-4 col-6 col-small">
                                 <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-5s">
                                     <h4 class="footer-title">Support</h4>
                                     <ul class="list-style-two">
@@ -89,7 +79,7 @@
                                         <li><a href="contact.html">Changelog</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -98,7 +88,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <div class="footer-bottom-menu mb-10 wow fadeInRight delay-0-2s">
+                            <!-- <div class="footer-bottom-menu mb-10 wow fadeInRight delay-0-2s">
                                 <ul>
                                     <li><a href="#">Buy Template</a></li>
                                     <li><a href="#">Version 1.2</a></li>
@@ -106,11 +96,11 @@
                                     <li><a href="#">Instructions</a></li>
                                     <li><a href="#">Visit My Templates</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-lg-4">
                             <div class="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                                <p>© 2023 Jeena. All rights reserved.</p>
+                                <p>© 2023 Astrocybernet. All rights reserved.</p>
                             </div>
                         </div>
                     </div>
@@ -154,6 +144,12 @@
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom script -->
     <script src="assets/js/script.js"></script>
+    <script src="ajax/ajax.min.js"></script>
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+
+
+
+
 
 </body>
 
