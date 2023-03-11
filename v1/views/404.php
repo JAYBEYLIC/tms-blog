@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Jeena - IT solutions & Services HTML Template || 404 Error</title>
+    <title>Astrocybernet</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logos/logo1.jpg" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
     
@@ -46,18 +46,18 @@
                 <div class="error-page-content text-center">
                     <div class="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s"><a href="index-2.html"><img src="assets/images/logos/logo-big.png" alt="Logo" title="Logo"></a></div>
                     <div class="image mb-80 rmb-55 wow fadeInUp delay-0-4s">
-                        <img src="assets/images/background/404.png" alt="Error">
+                        <img src="assets/images/logos/404.png" alt="Error">
                     </div>
                     <div class="row justify-content-center wow fadeInUp delay-0-2s">
                         <div class="col-xl-8 col-lg-10">
                             <div class="section-title mb-20">
                                 <h2>OPPS! This Pages Are Can’t Be Found </h2>
                             </div>
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded</p>
+                            <p>We're Sorry but the page you are looking for dosen't exist</p>
                         </div>
                     </div>
                     <div class="btn-social pt-15 wow fadeInUp delay-0-4s">
-                       <a href="index-2.html" class="theme-btn mb-30 mx-2">Go to Home <i class="fas fa-long-arrow-right"></i></a>
+                       <a href="main" class="theme-btn mb-30 mx-2">Go to Home <i class="fas fa-long-arrow-right"></i></a>
                         <div class="social-style-two mb-30 mx-2">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>

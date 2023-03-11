@@ -7,12 +7,12 @@
                             <span class="sub-title">Need Any Consultations ?</span>
                             <h2>Hacking has never been so simple</h2>
                         </div>
-                        <a href="contact.html" class="theme-btn style-three wow fadeInRight delay-0-2s">Get Started <i class="fas fa-long-arrow-right"></i></a>
+                        <a href="info" class="theme-btn style-three wow fadeInRight delay-0-2s">Get Started <i class="fas fa-long-arrow-right"></i></a>
                         <div class="hotline wow fadeInRight delay-0-2s">
-                            <i class="fas fa-phone"></i>
+                            <i class="fab fa-whatsapp" style="background: #25d366; font-weight: bold; color: #fff; font-size: 30px;" ></i>
                             <div class="content">
                                 <span>Whatsapp</span><br>
-                                <a href="callto:+1(906)9849264">+1 (906) 984 9264</a>
+                                <a href="https://wa.me/+19069849264">+1 (906) 984 9264</a>
                             </div>
                         </div>
                     </div>
@@ -32,9 +32,9 @@
                         <div class="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
                             <div class="social-style-one">
                                 <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                 <p>Sed perspiciatis unde omnste natus error voluptatem accusanti doloreue audantium totamrem aeriam.</p>
-                            <a href="about.html" class="read-more">Learn More Us <i class="fas fa-long-arrow-right"></i></a>
+                                <a href="https://wa.me/+19069849264"><i class="fab fa-whatsapp"></i></a>
+                                 <p>Astrocybernet Hack is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.</p>
+                            <a href="mailto:astrocybernet@yahoo.com" class="read-more">Get in Touch<i class="fas fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -57,13 +57,13 @@
                                 <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
                                     <h4 class="footer-title">Services</h4>
                                     <ul class="list-style-two">
-                                        <li><a href="service-details.html">Credit Repair</a></li>
-                                        <li><a href="service-details.html">Bitcoin Mining</a></li>
-                                        <li><a href="service-details.html">Passive Income</a></li>
-                                        <li><a href="service-details.html">Social media Recovery</a></li>
-                                        <li><a href="service-details.html">Stock Investment</a></li>
-                                        <li><a href="service-details.html">Track Phone/Spyware</a></li>
-                                        <li><a href="service-details.html">Hacking Softwares</a></li>
+                                        <li><a href="info">Credit Repair</a></li>
+                                        <li><a href="explore">Bitcoin Mining</a></li>
+                                        <li><a href="explore">Passive Income</a></li>
+                                        <li><a href="explore">Social media Recovery</a></li>
+                                        <li><a href="info">Hack School Grades</a></li>
+                                        <li><a href="explore">Track Phone/Spyware</a></li>
+                                        <li><a href="explore">Hacking Softwares</a></li>
                                     </ul>
                                 </div>
                             </div>

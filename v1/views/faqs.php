@@ -12,7 +12,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                     <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
-                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item"><a href="main">home</a></li>
                             <li class="breadcrumb-item active">FAQs</li>
                         </ol>
                     </nav>
@@ -88,7 +88,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                             </ul>
                                         </div>
                                         <div class="col-lg-6 my-15 text-lg-end">
-                                            <img src="assets/images/about/inner-faq.jpg" alt="Faqs">
+                                            <img src="assets/images/partners/anonymous1.jpg" alt="Faqs">
                                         </div>
                                     </div>
                                 </div>
@@ -118,22 +118,38 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                 </div>
                             </div>
                         </div>
+
+                          <div class="accordion-item">
+                            <h5 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                                    Money Back Guarantee ?
+                                </button>
+                            </h5>
+                            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                                <div class="accordion-body">
+                                    <p>We offer a full money back guarantee for first timers. If the hack is taking too long, having too many bugs, or is generally ineffective, you can easily request for a refund.</p>
+                                </div>
+                                <div class="col-lg-6 my-15 text-lg-end">
+                                            <img src="assets/images/partners/money1.jpg" alt="Faqs">
+                                        </div>
+                            </div>
+                        </div>
                            
                     </div>
                    <!--  <div class="tab-pane fade" id="faq-tab2">
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse10">
-                                    Rethinking Server-Timing As A Critical Monitoring Tool ?
+                                    Money Back Guarantee ?
                                 </button>
                             </h5>
                             <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
-                                    <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam incidunt debitis magnam sit dicta asperiores quidem cum, blanditiis harum non nulla, esse sapiente doloremque, dolores natus! Harum consectetur saepe iure obcaecati illo, maiores minima in dolorem, deleniti unde aut similique fugit earum. Numquam ut ex ipsum molestiae, consequatur obcaecati? Velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam eaquey quae abillo inventore</p>
+                                    <p>We offer a full money back guarantee for first timers. If the hack is taking too long, having too many bugs, or is generally ineffective, you can easily request for a refund.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item">
+                        </div> -->
+                        <!-- <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse9">
                                     Open-Source 3dicons Library: Case Study And Free Downloads ?
@@ -385,9 +401,9 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!-- FAQs Area end -->
         
@@ -434,7 +450,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-right-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/about/faq-page.png" alt="FAQs">
+                            <img src="assets/images/about/logo1.jpg" alt="FAQs">
                         </div>
                     </div>
                 </div>

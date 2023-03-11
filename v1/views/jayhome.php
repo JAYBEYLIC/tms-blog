@@ -1,4 +1,20 @@
+<?php 
+$section1=selectContent($conn,"settings_home_section1",['visibility'=>'show'])[0];
+$addition1=selectContent($conn,"addition_home_section1",['visibility'=>'show']);
+$section2=selectContent($conn,"settings_home_servicearea",['visibility'=>'show'])[0];
+$panelhome=selectContent($conn,"panel_home_servicearea",['visibility'=>'show']);
+$section3=selectContent($conn,"settings_home_section3",['visibility'=>'show'])[0];
+$addition3=selectContent($conn,"addition_home_section3",['visibility'=>'show']);
 
+
+
+// $section2=selectContent($conn,"settings_about_section2",['visibility'=>'show'])[0];
+
+
+
+
+
+ ?>
 <?php   include "includes/header.php" ?>
      
         
@@ -8,9 +24,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <div class="hero-content-two pt-155 pb-160 rpt-115 rpb-65 wow fadeInUp delay-0-4s">
-                            <span class="sub-title">IT Solution Comapny Astrocybernet Services</span>
-                            <h1>Innovation Digital IT Solutions</h1>
-                            <a href="about.html" class="theme-btn mt-25 wow fadeInUp delay-0-6s">Let’s Get Started <i class="fas fa-long-arrow-right"></i></a>
+                            <span class="sub-title"><?=$section1['input_subtitle']?></span>
+                            <h1><?=$section1['input_title']?></h1>
+                            <a href="<?=$section1['input_link_direction']?>" class="theme-btn mt-25 wow fadeInUp delay-0-6s"><?=$section1['input_link_text']?> <i class="fas fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-8 col-10 col-small">
@@ -22,13 +38,16 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 col-small">
-                        <div class="feature-item wow fadeInUp delay-0-2s">
-                            <div class="icon"><i class="flaticon-consulting"></i></div>
-                            <h5><a href="service-details.html">Consulting</a></h5>
+                    <?php foreach ($addition1 as $key => $value): ?>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-6 col-small">
+                        <div class="<?=$value['fade_in'] ?>">
+                            <div class="icon"><i class="<?=$value['icon_icon']?>"></i></div>
+                            <h5><a href="<?=$value['input_link_text']?>"><?=$value['input_text']?></a></h5>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 col-small">
+                    <?php endforeach ?>
+                    
+                    <!-- <div class="col-xl-2 col-lg-3 col-md-4 col-6 col-small">
                         <div class="feature-item wow fadeInDown delay-0-2s">
                             <div class="icon"><i class="flaticon-project-management"></i></div>
                             <h5><a href="service-details.html">Management</a></h5>
@@ -58,7 +77,7 @@
                             <h5><a href="service-details.html">Business Dev</a></h5>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="hero-shapes-two">
                 <img src="assets/images/hero/hero-bg-lines.png" alt="BG Lines">
@@ -68,7 +87,7 @@
         
         
         <!-- About Area start -->
-        <section class="about-area-two py-130 rpy-100 rel z-1">
+        <!-- <section class="about-area-two py-130 rpy-100 rel z-1">
             <div class="container">
                 <div class="row align-items-center gap-90">
                     <div class="col-lg-6">
@@ -98,48 +117,51 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About Area end -->
         
         
         <!-- Services Area Two start -->
         <section class="services-area-two rel z-2">
             <div class="container">
-               <div class="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-                    <span class="sub-title mb-10">What We Provides</span>
-                    <h2>Digital Core Services</h2>
+               <div class="<?=$section2['fade_in']?>">
+                    <span class="sub-title mb-10"></span>
+                    <h2><?=$section2['input_title']?></h2>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="service-item-two wow fadeInUp delay-0-2s">
+                    <?php foreach ($panelhome as $key => $value): ?>
+                         <div class="<?=$value['class']?>">
+                        <div class="<?=$value['fade_in']?>">
                             <div class="image">
-                                <img src="assets/images/services/service1.png" alt="Service">
+                                <img src="<?=$value['image_1']?>" alt="Service">
                             </div>
                             <div class="content">
-                                <h4 class="title">Digital Marketing</h4>
+                                <h4 class="title"><?=$value['input_title']?></h4>
                                 <ul class="list-style-three">
-                                    <li>Paid Marketing</li>
-                                    <li>CRO</li>
-                                    <li>Content Marketing</li>
-                                    <li>Email Marketing</li>
-                                    <li>SMO</li>
+                                    <li><?=$value['li_listing_1']?></li>
+                                    <li><?=$value['li_listing_2']?></li>
+                                    <li><?=$value['li_listing_3']?></li>
+                                    <li><?=$value['li_listing_4']?></li>
+                                    <li><?=$value['li_listing_5']?></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <?php endforeach ?>
+                   
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="service-item-two wow fadeInUp delay-0-4s">
                             <div class="image">
                                 <img src="assets/images/services/service2.png" alt="Service">
                             </div>
                             <div class="content">
-                                <h4 class="title">Mobile Application</h4>
+                                <h4 class="title">Web Intrusion</h4>
                                 <ul class="list-style-three">
-                                    <li>Unique UI Design</li>
-                                    <li>Clean Development</li>
-                                    <li>Swift</li>
-                                    <li>Kotlin</li>
-                                    <li>React Native</li>
+                                    <li>Grade Hack</li>
+                                    <li>Credit Score Hack</li>
+                                    <li>Swift Criminal Records</li>
+                                    <li>Debt Clearance</li>
+                                    <li>Online Transcript Hack</li>
                                 </ul>
                             </div>
                         </div>
@@ -150,13 +172,12 @@
                                 <img src="assets/images/services/service3.png" alt="Service">
                             </div>
                             <div class="content">
-                                <h4 class="title">Web Development</h4>
+                                <h4 class="title">Email Hacks</h4>
                                 <ul class="list-style-three">
-                                    <li>Development Consulting</li>
-                                    <li>UX/UI Cool Design</li>
-                                    <li>Software Engineering</li>
-                                    <li>Product Development</li>
-                                    <li>Enhancement</li>
+                                    <li>Outlook</li>
+                                    <li>Gmail</li>
+                                    <li>Yahoo Mail</li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -167,13 +188,12 @@
                                 <img src="assets/images/services/service4.png" alt="Service">
                             </div>
                             <div class="content">
-                                <h4 class="title">Technical Support</h4>
+                                <h4 class="title">Others</h4>
                                 <ul class="list-style-three">
-                                    <li>Security Management </li>
+                                    <li>Location Tracking</li>
                                     <li>Automated Deployments </li>
-                                    <li>Incident Management(SLA)</li>
-                                    <li>Compliance Monitoring</li>
-                                    <li>CI/CD and DevOps</li>
+                                    <li>Spyware</li>
+                                    <li>Track Phone</li>
                                 </ul>
                             </div>
                         </div>
@@ -184,52 +204,7 @@
         <!-- Services Area Two end -->
         
         
-        <!-- Customer Satisfaction Area start -->
-        <section class="customer-satisfaction-area py-100 rpy-70 rel z-1">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="cs-content-part rmb-35 wow fadeInLeft delay-0-2s">
-                            <div class="section-title mb-15">
-                                <span class="sub-title mb-15">Guaranteed Customer Satisfaction</span>
-                                <h2>Ideate, Design And Fuel Business Growth</h2>
-                            </div>
-                            <p>With over 20 years of experience and 850+ employees board, Iflexion  serves medium-sized and large companies globally. Profound knowledge coupled with business understanding is what allows us to create unique solutions that power enterprises, their employees.</p>
-                            <div class="row pt-15">
-                                <div class="col-sm-6">
-                                    <div class="service-item style-two">
-                                        <div class="icon">
-                                            <i class="flaticon-trust"></i>
-                                        </div>
-                                        <h4><a href="service-details.html">Best Trusted Partner</a></h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="service-item style-two">
-                                        <div class="icon">
-                                            <i class="flaticon-technical-support"></i>
-                                        </div>
-                                        <h4><a href="service-details.html">24/7 Tehnical Support</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="cs-image-part mb-30 wow fadeInRight delay-0-2s">
-                            <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" class="mfp-iframe video-play style-two" tabindex="0"><i class="fas fa-play"></i></a>
-                            <div class="image">
-                                <img src="assets/images/about/satisfaction.jpg" alt="Satisfaction">
-                            </div>
-                            <div class="experience-years">
-                                <h4>25 Years Of Experience IT Solutions</h4>
-                                <img src="assets/images/about/satisfaction-author.png" alt="Author">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!-- Customer Satisfaction Area end -->
         
         
@@ -239,42 +214,26 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8">
                         <div class="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-                            <span class="sub-title mb-10">Company Statistics Database</span>
-                            <h2>5,000+ Completed Projects in 41+ Countries</h2>
+                            <span class="sub-title mb-10"><?=$section3['input_subtitle']?></span>
+                            <h5><?=$section3['input_title']?></h5>
                         </div>
                     </div>
                 </div>
                 <div class="row no-gap justify-content-center">
-                    <div class="col-xl-4 col-md-6">
-                        <div class="counter-item-two counter-text-wrap wow fadeInUp delay-0-3s">
-                            <div class="icon"><i class="flaticon-target"></i></div>
+                    <?php foreach ($addition3 as $key => $value): ?>
+                        <div class="col-xl-4 col-md-6">
+                        <div class="<?=$value['fade_in']?>">
+                            <div class="icon"><i class="<?=$value['icon_icon']?>"></i></div>
                             <div class="content">
-                                <span class="count-text plus" data-speed="3000" data-stop="35">0</span>
-                                <span class="counter-title">Years Of Experience</span>
-                                <p>Over 20 years of experience and 850+ employees</p>
+                                <span class="<?=$value['input_class']?>" data-speed="3000" data-stop="<?=$value['input_number']?>">0</span>
+                                <span class="counter-title"><?=$value['input_title']?></span>
+                                <p><?=$value['input_subtitle']?></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="counter-item-two counter-text-wrap wow fadeInUp delay-0-5s">
-                            <div class="icon"><i class="flaticon-target"></i></div>
-                            <div class="content">
-                                <span class="count-text plus" data-speed="3000" data-stop="693">0</span>
-                                <span class="counter-title">Project Complate</span>
-                                <p>Over 20 years of experience and 850+ employees</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="counter-item-two counter-text-wrap wow fadeInUp delay-0-7s">
-                            <div class="icon"><i class="flaticon-target"></i></div>
-                            <div class="content">
-                                <span class="count-text percent" data-speed="3000" data-stop="98">0</span>
-                                <span class="counter-title">Clients Satisfaction</span>
-                                <p>Over 20 years of experience and 850+ employees</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach ?>
+                    
+                  
                 </div>
             </div>
         </section>

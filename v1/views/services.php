@@ -24,7 +24,7 @@ $services=selectContent($conn,"panel_services",['visibility'=>'show']);
                     <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
-                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item"><a href="main">home</a></li>
                             <li class="breadcrumb-item active">Services</li>
                         </ol>
                     </nav>
@@ -50,7 +50,7 @@ $services=selectContent($conn,"panel_services",['visibility'=>'show']);
                                 <li><?=$section2['li_listing_2']?></li>
                                 <li><?=$section2['li_listing_3']?></li>
                             </ul>
-                            <a href="services.html" class="theme-btn mt-45">View All Services <i class="fas fa-long-arrow-right"></i></a>
+                            <a href="info" class="theme-btn mt-45"><?=$section2['input_link_text']?> <i class="fas fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -62,8 +62,7 @@ $services=selectContent($conn,"panel_services",['visibility'=>'show']);
                                     <div class="icon"><i class="<?=$value['icon_icon']?>"></i></div>
                                     <a href=""><h4><?=$value['input_title']?></h4></a>
                                     <p><?=$value['input_subtitle']?></p>
-                                <a class="more-btn" href="<?=$value['input_link_direction']?>"><i class="far fa-angle-right"></i></a>
-                                </div>
+                                 <i class="fa fa-badge-check"></i>                                </div>
                             </div>
                                 <?php endforeach ?>
                                
@@ -100,11 +99,11 @@ $services=selectContent($conn,"panel_services",['visibility'=>'show']);
                             <div class="top-part">
                                 <span class="number"><?=$value['input_number']?></span>
                                 <div class="icon"><i class="<?=$value['icon_icon']?>"></i></div>
-                                <h4><a href="service-details.html"><?=$value['input_title']?></a></h4>
+                                <h4><a href="info"><?=$value['input_title']?></a></h4>
                             </div>
                             <div class="bottom-part">
                                 <p><?=$value['input_text']?></p>
-                                <a href="service-details.html" class="read-more"><?=$value['input_link_text']?><i class="far fa-arrow-right"></i></a>
+                                <a href="info" class="read-more"><?=$value['input_link_text']?><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                   </div>

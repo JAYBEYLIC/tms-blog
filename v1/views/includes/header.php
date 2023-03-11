@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Jay Home</title>
+    <title>Astrocybernet</title>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/images/logo1.jpg" type="image/x-icon">
     <!-- Google Fonts -->
@@ -47,9 +47,9 @@
                <div class="container">
                    <div class="header-top">
                        <ul>
-                            <li><i class="far fa-envelope"></i> <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#681b1d1818071a1c280f05090104460b0705"><span class="__cf_email__" data-cfemail="93e0e6e3e3fce1e7d3f4fef2faffbdf0fcfe">[Astrocybernethack@yahoo.com&#160;]</span></a></li>
-                            <li><i class="far fa-phone"></i> <a href="callto:+000(123)45688">+1 (906) 984 9264</a></li>
-                            <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li>
+                            <li><i class="far fa-envelope"></i> <a href=""><span class="">[Astrocybernethack@yahoo.com&#160;]</span></a></li>
+                            <!-- <li><i class="far fa-phone"></i> <a href="callto:+000(123)45688">+1 (906) 984 9264</a></li>
+                            <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li> -->
                             <li>
                                 <div class="social-style-one">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -113,7 +113,7 @@
                                         </li>
 
                                          <li><a href="faq">faqs</a></li>
-                                        <li ><a href="plan">Project</a>
+                                        <li ><a href="plan">Portfolios</a>
                                            
                                         </li>
                                         

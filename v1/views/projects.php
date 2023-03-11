@@ -15,8 +15,8 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                     <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
-                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
-                            <li class="breadcrumb-item active">Project Masonry</li>
+                            <li class="breadcrumb-item"><a href="main">home</a></li>
+                            <li class="breadcrumb-item active">Portfolios</li>
                         </ol>
                     </nav>
                 </div>
@@ -44,8 +44,8 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                                 <img src="<?=$value['image_1']?>" alt="Project Masonry">
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html"><?=$value['input_link_text']?></a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
+                                <h5><a href="info"><?=$value['input_link_text']?></a></h5>
+                                <a href="info" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                                 <!-- <a class="plus" href="assets/images/projects/project-masonry2.jpg"></a> -->
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html"><?=$value['input_link_text']?></a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
+                                <h5><a href="info"><?=$value['input_link_text']?></a></h5>
+                                <a href="info" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -87,13 +87,13 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                         <div class="project-grid-item wow fadeInUp delay-0-4s">
                             <div class="image">
                                 <img src="../assets/images/projects/bitcoin-p.jpg" alt="Project Masonry">
-                                <a class="plus" href="../assets/images/projects/bitcoin-p.jpg"></a>
+                                <!-- <a class="plus" href="../assets/images/projects/bitcoin-p.jpg"></a> -->
                                 <span style="color: #30F0B6;">A secret number that allows bitcoins to be spent</span>
 
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html">Bitcoin Private Key</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
+                                <h5><a href="info">Bitcoin Private Key</a></h5>
+                                <a href="info" class="detail-btn"><i class="far fa-arrow-right"></i></a>
 
                             </div>
                         </div>
@@ -102,13 +102,13 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                     <div class="col-xl-6 col-lg-8 item">
                         <div class="project-grid-item wow fadeInUp delay-0-2s">
                             <div class="image">
-                                <img src="../assets/images/projects/stocks-bonds.jpg" alt="Project Masonry">
-                                <a class="plus"  href="../assets/images/projects/stocks-bonds.jpg"></a>
+                                <img src="../assets/images/projects/stocks-bonds1.jpg" alt="Project Masonry">
+                                <!-- <a class="plus"  href="../assets/images/projects/stocks-bonds.jpg"></a> -->
                                 <span style="color: #30F0B6;">Buy and hold the best Companies</span>
                             </div>
                             <div class="content">
-                                <h5><a href="project-details.html">Stock Investment</a></h5>
-                                <a href="project-details.html" class="detail-btn"><i class="far fa-arrow-right"></i></a>
+                                <h5><a href="info">Stock Investment</a></h5>
+                                <a href="info" class="detail-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ $addition=selectContent($conn,"addition_projects_section2",['visibility'=>'show'
                     </div> -->
                 </div>
                 <div class="project-more-btn pt-30 text-center">
-                    <a href="project-grid.html" class="theme-btn style-two wow fadeInUp delay-0-2s">Our Reviews Speaks <i class="fas fa-long-arrow-right"></i></a>
+                    <a href="info" class="theme-btn style-two wow fadeInUp delay-0-2s">Get in Touch <i class="fas fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </section>

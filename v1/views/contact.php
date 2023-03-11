@@ -11,7 +11,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                     <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
-                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item"><a href="main">home</a></li>
                             <li class="breadcrumb-item active">Contact Us</li>
                         </ol>
                     </nav>
@@ -27,8 +27,8 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                 <div class="row text-center mb-35 justify-content-center wow fadeInUp delay-0-2s">
                     <div class="col-xl-8 col-lg-10">
                         <div class="section-title mb-25">
-                            <span class="sub-title mb-15">Need any Helps</span>
-                            <h2>Contact Informations</h2>
+                            <span class="sub-title mb-15">Get in Touch</span>
+                            <h2>Contact Information</h2>
                         </div>
                         <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
                     </div>
@@ -37,30 +37,32 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                     
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="contact-info-box wow fadeInUp delay-0-3s">
-                            <div class="icon"><i class="fal fa-envelope-open"></i></div>
+                            <div class="icon"><i class="fas fa-envelope-open"></i></div>
                             <h4>Email Us</h4>
-                            <a href="https://demo.webtend.net/cdn-cgi/l/email-protection#bccfc9ccccd3cec8d5c8d5d2dad3fcdbd1ddd5d092dfd3d1"><span class="__cf_email__" data-cfemail="2f5c5a5f5f405d5b465b464149406f48424e4643014c4042">[astrocybernet&#160;@yahoo.com]</span></a><br>
-                            <a href="http://www.itservice.net/">www.astrocybenet.org</a>
+                            <a href="mailto:">[astrocybernet&#160;@yahoo.com]</span></a><br>
+                            <a href="main">www.astrocybenet.org</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="contact-info-box wow fadeInUp delay-0-4s">
-                            <div class="icon"><i class="fal fa-phone-plus"></i></div>
-                            <h4>Contact</h4>
-                            <span>Mobile : <a href="callto:+000(123)45667">Undisclosed</a></span>
-                            <span>Teliphone : <a href="callto:+1234566">+1234566</a></span>
+                            <div class="icon"><i class="fas fa-home"></i></div>
+                            <h4>Office</h4>
+                            <span>Address : <a href="https://www.google.com/maps/place/Kentucky,+USA/@37.73699,-90.259035,6z/data=!3m1!4b1!4m6!3m5!1s0x8842734c8b1953c9:0x771f6f4ec5ccdffc!8m2!3d37.8393332!4d-84.2700179!16zL20vMDQ5OHk">Huntsville, Alabama (AL) United States.</a></span>
+                            <!-- <span><a href="https://wa.me/+19069849264" style="display: inline-block; background: #25d366; color: #fff; font-weight: bold; text-decoration: none; padding: 10px 15px; border-radius: 5px;"><i class="fab fa-whatsapp">whatsapp</i></a></span> -->
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="contact-info-box wow fadeInUp delay-0-5s">
-                            <div class="icon"><i class="fal fa-clock"></i></div>
+                            <div class="icon"><i class="fas fa-clock"></i></div>
                             <h4>Working Hour</h4>
-                            <b>Monday _ Friday,</b>
-                            <span>08:00am - 06:00pm</span>
+                            <span>Monday _ Sunday</span> <br>
+                            <span>24/7</span>
                         </div>
                     </div>
                 </div>
             </div>
+
+
         </section>
         <!-- Contact Info Area end -->
         
@@ -84,7 +86,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                                 <span class="sub-title mb-15">Get In Touch</span>
                                 <h2>Send Us  Message</h2>
                             </div>
-                            <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
+                            <p>Fill the contact form to reach out to us. Be sure to provide your correct contact details so we can easily reach you. If you haven’t received an email after some time, check your spam folder.</p>
                         </div>
                     </div>
                     <div id="contactForm" class="contactForm"  name="contactForm" >

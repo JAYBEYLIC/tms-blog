@@ -15,32 +15,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- var_dump($patners[0]['input_link_direction']);
+ // var_dump($patners[0]['input_link_direction']);
 
 // $sectrion='array must be on th eselection on the interference of thew echo key to the redirection loink page to come in thje section of the socres in the addition layer on th eprompt command';
 // $key=>'array section key 3 and have a scetion to command on the line of actioopn  to the incoming key array';
@@ -54,7 +29,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                     <h1 class="page-title wow fadeInUp delay-0-2s"><?=$section1['input_title']?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center mb-5 wow fadeInUp delay-0-4s">
-                            <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                            <li class="breadcrumb-item"><a href="main">home</a></li>
                             <li class="breadcrumb-item active">About Us</li>
                         </ol>
                     </nav>
@@ -95,7 +70,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                                         </div>
                                         <h4><a href="<?=$value['input_link_direction']?>"><?=$value['input_title']?></a></h4>
                                         <p><?=$value['input_text']?></p>
-                                        <a href="<?=$value['input_link_direction']?>" class="read-more"><?=$value['input_link_text']?> <i class="far fa-arrow-right"></i></a>
+                                        <a href="<?=$value['input_link_direction']?>" class="read-more"><?=$value['input_link_text']?> </a>
                                     </div>
                                 
                                 </div>
@@ -145,7 +120,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
         
         
         <!-- Statistics Area start -->
-      <!--   <section class="statistics-area-two rel z-2">
+        <section class="statistics-area-two rel z-2">
             <div class="container">
                 <div class="statistics-inner style-two bgs-cover text-white p-80 pb-20" style="background-image: url(assets/images/background/statistics.jpg);">
                     <div class="row align-items-xl-start align-items-center">
@@ -167,7 +142,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                                 <div class="col-xl-3 col-small col-6">
                                     <div class="counter-item counter-text-wrap wow fadeInDown delay-0-3s">
                                         <i class="<?=$value['icon_icon']?>"></i>
-                                        <span class="count-text plus" data-speed="3000" data-stop="<?=$value['input_text']?>">0</span>
+                             <span class="<?=$value['input_class']?>" data-speed="3000" data-stop="<?=$value['input_number']?>">0</span>
                                         <span class="counter-title"><?=$value['input_title']?></span>
                                     </div>
                                 </div>
@@ -180,7 +155,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- Statistics Area end -->
         
         
@@ -196,8 +171,12 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
 
                 
                 <div class="row justify-content-center">
-                   <p>Our mission is to harness the power of technology to create innovative, culturally-sensitive solutions that meet the unique needs of African communities. We are dedicated to bridging the digital divide and empowering the next generation of African leaders through the development of custom technology solutions that are designed to meet the specific needs of the African people.
-                   Our vision is to be the foremost provider of Afrocentric technology solutions, delivering positive impact to businesses and communities across the African continent and beyond. We strive to drive economic growth and social progress through innovative and inclusive technology solutions.Our vision is to be the foremost provider of Afrocentric technology solutions, delivering positive impact to businesses and communities across the African continent and beyond. We strive to drive economic growth and social progress through innovative and inclusive technology solutions.Our mission is to harness the power of technology to create innovative, culturally-sensitive solutions that meet the unique needs of African communities. We are dedicated to bridging the digital divide and empowering the next generation of African leaders through the development of custom technology solutions that are designed to meet the specific needs of the African people.
+                   <p>Astrocybernet Hack is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.<br>
+                    We are an independent entity and not affiliated with the hacker organization “Anonymous”.
+                    Our mission is to harness the power of technology to create innovative, culturally-sensitive solutions that meet the unique needs of World communities. We are dedicated to bridging the digital divide and empowering the next generation of World leaders through the development of custom technology solutions that are designed to meet the specific needs of the people globally. <br>
+                    Asrocybernet Hack provides top notch security for each and every hack exploit we develop. Our web-based result system ensured that your data is viewed only on secured servers.
+                    We regularly carry our maintenance on exploit links to ensure data integrity and keep other hackers and bots out of the system. With round the clock technical support, you can rest easy knowing your information is completely secure.
+                  From recovering your old accounts to clearing student loans and improving your credit score, Astrocybernet is your chance to make things right. Our hackers work round the clock, armed with years of practical knowledge and experience to provide the best hacking services money can buy.
                </p>
               
                 </div>
@@ -278,7 +257,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                 <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
                     <?php foreach ($patners as $key => $value): ?>
                          <div class="col">
-                        <a href="<?=$value['input_link_direction']?>" class="partner-item-two wow fadeInUp delay-0-4s">
+                        <a  class="partner-item-two wow fadeInUp delay-0-4s">
                             <img src="<?=$value['image_1']?>" alt="Partner">
                         </a>
                     </div>
