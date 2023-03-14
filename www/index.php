@@ -43,7 +43,7 @@ $site_address = $websiteInfo[0]['input_address'];
 // // $behanceLink = $websiteInfo[0]['input_behance'];
 // // $dribbbleLink = $websiteInfo[0]['input_dribbble'];
 // $description = $websiteInfo[0]['text_description'];
-// $logo_directory = $websiteInfo[0]['image_1'];
+$logo_directory = $websiteInfo[0]['image_1'];
 // // $favicon = $fetchFavicon[0]['image_1'];
 //
 // if($websiteStyle[0]['status'] === "live"){
