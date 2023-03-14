@@ -93,31 +93,31 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="nameInput"  name="name" class="form-control" value="" placeholder="Full name" required data-error="Please enter your name">
+                                    <input type="text" id="nameInput"  name="name" class="form-control" autocomplete="off" value="" placeholder="Full name" required data-error="Please enter your name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="numberInput" name="phone_number" class="form-control" value="" placeholder="Phone Number" required data-error="Please enter your Phone Number">
+                                    <input type="text" id="numberInput" name="phone_number" class="form-control" autocomplete="off" value="" placeholder="Phone Number" required data-error="Please enter your Phone Number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" id="emailInput" name="email" class="form-control" value="" placeholder="Email Address" required data-error="Please enter your Email">
+                                    <input type="email" id="emailInput" name="email" class="form-control" autocomplete="off" value="" placeholder="Email Address" required data-error="Please enter your Email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="subjectInput" name="subject" class="form-control" value="" placeholder="Subject" required data-error="Please enter your Subject">
+                                    <input type="text" id="subjectInput" name="subject" class="form-control" autocomplete="off" value="" placeholder="Subject" required data-error="Please enter your Subject">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" id="messageInput" class="form-control" rows="3" placeholder="Message" required data-error="Please enter your Message"></textarea>
+                                    <textarea name="message" id="messageInput" class="form-control" autocomplete="off" rows="3" placeholder="Message" required data-error="Please enter your Message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>

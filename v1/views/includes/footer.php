@@ -44,11 +44,11 @@
                                 <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-3s">
                                     <h4 class="footer-title">Quick Links</h4>
                                     <ul class="list-style-two">
-                                        <li><a href="about.html">Home</a></li>
-                                        <li><a href="about.html">Services</a></li>
-                                        <li><a href="services.html">Projects</a></li>
-                                        <li><a href="project-grid.html">About Us</a></li>
-                                        <li><a href="faqs.html">Contact Us</a></li>
+                                        <li><a href="main">Home</a></li>
+                                        <li><a href="explore">Services</a></li>
+                                        <li><a href="plan">Portfolio</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        <li><a href="info">Contact Us</a></li>
                                        
                                     </ul>
                                 </div>

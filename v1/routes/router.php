@@ -32,7 +32,7 @@ if (count($uri) > 2) {
 
 
     case '':
-     include APP_PATH."/views/index.php";
+     include APP_PATH."/views/jayhome.php";
       break;
 
   case 'main':

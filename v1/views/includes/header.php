@@ -55,7 +55,7 @@
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
                                 </div>
                             </li>
                         </ul>
@@ -69,7 +69,7 @@
 
                     <div class="header-inner rel d-flex align-items-center">
                         <div class="logo-outer">
-                         <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo"></a>
+                         <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo4.jpg" alt="Logo" title="Logo"></a>
                 <!-- <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo" title="Logo"></a> -->
 
                             </div>
@@ -81,7 +81,7 @@
                                 <div class="navbar-header">
                                    <div class="mobile-logo">
                                        <a href="index-2.html">
-                                            <img src="assets/images/logos/logo-one.png" alt="Logo" title="Logo">
+                                            <img src="assets/images/logos/logo4.jpg" alt="Logo" title="Logo">
                                        </a>
                                    </div>
                                    

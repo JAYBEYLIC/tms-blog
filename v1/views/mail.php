@@ -27,7 +27,7 @@ extract($data);
 
 
 
-$subject = "Contact - Mckodev";
+$subject = "Astrocybernet";
 $to = $site_email;
 
 // $userMessage = "Dear $name, We are glad to receive your message, we'll get in touch with you soonest.";
@@ -106,7 +106,7 @@ $userMessage = '<!DOCTYPE html>
         }
 
         .welcome-details p span {
-            color: #e22454;
+            color: #8c1ca7;
             font-weight: 700;
             margin: 0 2px;
             text-decoration: underline;
@@ -115,7 +115,7 @@ $userMessage = '<!DOCTYPE html>
         .welcome-details p {
             font-weight: normal;
             font-size: 14px;
-            color: #232323;
+            color: #8c1ca7;
             line-height: 1.6;
             letter-spacing: 0.05em;
             margin: 0;
@@ -125,8 +125,8 @@ $userMessage = '<!DOCTYPE html>
         button {
             padding: 12px 30px;
             border: none;
-            background-color: #C4262E;
-            color: #fff;
+            background-color: #0dc143;
+            color: #ffffff;
             font-weight: 500;
             font-size: 15px;
             letter-spacing: 1.3px;
@@ -174,7 +174,7 @@ $userMessage = '<!DOCTYPE html>
                                 <td align="left" valign="top">
                                      
 
-                                        <img src="'.$logo_directory.'" class="main-logo" alt="logo" style="width: 100px">
+                                       
 
                                 </td>
                             </tr>
@@ -190,18 +190,18 @@ $userMessage = '<!DOCTYPE html>
         <tbody>
             <tr>
                 <td class="welcome-image mb-3" style="display: block;">
-                    <img src="'.$logo_directory.'" style="width: 100%; margin-top: 20px;" alt=""> 
+                   
                 </td>
 
                 <td class="welcome-name mb-3" style="text-align: left; display: block;">
-                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,
+                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,'.$name.'
                         Welcome to '.$site_name.'</h4>
-                    <h5>We have received your request for a Proposal. We will send one to you soon.</h5>
-                    <h5>Thank you for considering to work with Mckodev TechLab on your project. We cannot wait to discuss your idea and create magic with you.</h5>
+                    <h5>We have received your request.We will respond to you shortly.</h5>
+                    <h5>Thank you.We cannot wait to discuss your issues and create magic with you.</h5>
                 </td>
 
                 <td class="welcome-details mb-3" style="display: block;">
-                    <p>If you have any question, please email us at <span> <a href="mailto:'.$site_email.'">'.$site_email.'</a> </span> You can also chat with our customer service on whatsapp by clicking on the link below.</p>
+                    <p>If you have any question, please email us at <span> <a href="mailto:'.$site_email.'">'.$site_email.'</a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
                     <button><a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp"></i> Whatsapp</a></button>
                 </td>
             </tr>
@@ -246,7 +246,7 @@ $userMessage = '<!DOCTYPE html>
 </html>
 ';
 
-var_dump($site_email);
+// var_dump($site_email);
 
 $mail = new PHPMailer;
 $mail->isSMTP(); // Set mailer to use SMTP
@@ -298,7 +298,7 @@ if (isset($message) && !empty($message)) {
 
 
 if($mail->send() && $mail2admin->send()) {
-  $result['success'] = "Message Sent Successfully, we'll get in touch with you soonest.";
+  $result['success'] = "Message Sent Successfully, we'll get in touch with you Quickly.";
 }else{
   $result['failed'] = "the email was not sent .";
 }
