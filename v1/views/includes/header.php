@@ -52,9 +52,9 @@
                             <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li> -->
                             <li>
                                 <div class="social-style-one">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
                                     <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
                                 </div>
                             </li>
