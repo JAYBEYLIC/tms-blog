@@ -70,7 +70,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                                         </div>
                                         <h4><a href="<?=$value['input_link_direction']?>"><?=$value['input_title']?></a></h4>
                                         <p><?=$value['input_text']?></p>
-                                        <a href="<?=$value['input_link_direction']?>" class="read-more"><?=$value['input_link_text']?> </a>
+                                        
                                     </div>
                                 
                                 </div>
