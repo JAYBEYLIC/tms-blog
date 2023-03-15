@@ -516,7 +516,8 @@ function selectTableContent($dbconn,$table,$column,$columnWhere){
 
   return $result;
 } catch (PDOException $e) {
-  die("Error Occured");
+  // die("Error Occured");
+  echo $e->getMessage();
 }
 }
 
