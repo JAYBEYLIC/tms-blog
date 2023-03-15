@@ -443,7 +443,7 @@ function selectContentDesc($dbconn,$table,$columnWhere,$order,$limit){
   return $result;
 } catch (PDOException $e) {
   die($e);
-  die("Error Occured");
+  // die("Error Occured");
 }
 }
 function selectContentAsc($dbconn,$table,$columnWhere,$order,$limit){
