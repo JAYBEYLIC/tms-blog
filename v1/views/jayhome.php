@@ -11,7 +11,6 @@ $testimonial=selectContent($conn,"panel_home_testimonial",['visibility'=>'show']
 
 
 
-// $section2=selectContent($conn,"settings_about_section2",['visibility'=>'show'])[0];
 
 
 
@@ -202,12 +201,7 @@ $testimonial=selectContent($conn,"panel_home_testimonial",['visibility'=>'show']
                 </div>
             </div>
         </section>
-        <!-- Testimonials Area Two end -->
         
-        
-        <!-- Blog Area Two start -->
-    
-        <!-- Blog Area Two end -->
         
 <?php   include "includes/footer.php" ?>
         

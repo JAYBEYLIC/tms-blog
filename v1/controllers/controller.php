@@ -406,7 +406,9 @@ function selectContent($dbconn,$table,$columnWhere){
 
   return $result;
 } catch (PDOException $e) {
-  die("Error Occured");
+  // die("Error Occured");
+  echo $e->getMessage();
+
 }
 }
 function selectContentDesc($dbconn,$table,$columnWhere,$order,$limit){
@@ -444,6 +446,8 @@ function selectContentDesc($dbconn,$table,$columnWhere,$order,$limit){
 } catch (PDOException $e) {
   die($e);
   // die("Error Occured");
+  echo $e->getMessage();
+
 }
 }
 function selectContentAsc($dbconn,$table,$columnWhere,$order,$limit){
@@ -480,7 +484,9 @@ function selectContentAsc($dbconn,$table,$columnWhere,$order,$limit){
   return $result;
 } catch (PDOException $e) {
   // die($e);
-  die("Error Occured");
+  // die("Error Occured");
+  echo $e->getMessage();
+  
 }
 }
 function selectTableContent($dbconn,$table,$column,$columnWhere){
@@ -516,8 +522,7 @@ function selectTableContent($dbconn,$table,$column,$columnWhere){
 
   return $result;
 } catch (PDOException $e) {
-  // die("Error Occured");
-  echo $e->getMessage();
+  die("Error Occured");
 }
 }
 
