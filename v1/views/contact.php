@@ -30,7 +30,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                             <span class="sub-title mb-15">Get in Touch</span>
                             <h2>Contact Information</h2>
                         </div>
-                        <p>Sed ut perspiciatis unde omnis natus errorsit voluptatem accusantium doloremque laudantium aperiam eaque quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo</p>
+                        <p>At Astrocybernet Hacks we provide state-of-the-art customer support, 24 hours a day, seven days a week. Do you have any queries regarding online and cyber hacking? Please get in touch with us, and we shall resolve your doubts at the earliest. hire a hacker here.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
