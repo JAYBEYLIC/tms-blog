@@ -47,7 +47,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                         <div class="contact-info-box wow fadeInUp delay-0-4s">
                             <div class="icon"><i class="fas fa-home"></i></div>
                             <h4>Office</h4>
-                            <span>Address : <a href="https://www.google.com/maps/place/Kentucky,+USA/@37.73699,-90.259035,6z/data=!3m1!4b1!4m6!3m5!1s0x8842734c8b1953c9:0x771f6f4ec5ccdffc!8m2!3d37.8393332!4d-84.2700179!16zL20vMDQ5OHk">Huntsville, Alabama (AL) United States.</a></span>
+                            <!-- <span>Address : <a href="https://www.google.com/maps/place/Kentucky,+USA/@37.73699,-90.259035,6z/data=!3m1!4b1!4m6!3m5!1s0x8842734c8b1953c9:0x771f6f4ec5ccdffc!8m2!3d37.8393332!4d-84.2700179!16zL20vMDQ5OHk">Huntsville, Alabama (AL) United States.</a></span> -->
                             <!-- <span><a href="https://wa.me/+19069849264" style="display: inline-block; background: #25d366; color: #fff; font-weight: bold; text-decoration: none; padding: 10px 15px; border-radius: 5px;"><i class="fab fa-whatsapp">whatsapp</i></a></span> -->
                         </div>
                     </div>
