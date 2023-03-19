@@ -100,7 +100,9 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                                <p style="color:#b0f0b6; text-align: center; font-weight: bold;">© 2023 Astrocybernet. All rights reserved.</p>
+                                <p style="color:#b0f0b6; margin-left:-900px; font-weight: bold;">© 2023 Astrocybernet. All rights reserved.</p>
+
+
                             </div>
                         </div>
                     </div>
