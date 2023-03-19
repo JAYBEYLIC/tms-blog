@@ -148,7 +148,7 @@
                         
                         <!-- Menu Button -->
                         <div class="menu-btns">
-                           <a href="" class="theme-btn">Whatsapp<i class="fab fa-whatsapp" style="font-weight: bold; color: #fff; font-size: 30px;"></i></a>
+                     <a href="https://wa.me/+19069849264" class="theme-btn">Whatsapp<i class="fab fa-whatsapp" style="font-weight: bold; color: #fff; font-size: 30px;"></i></a>
                         </div>
                     </div>
                 </div>
