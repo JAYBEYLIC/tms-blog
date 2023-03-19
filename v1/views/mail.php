@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] !=="POST"){
    die;
 }
 
-if( !in_array($request_headers['Host'],["www.astrocybernet.com"]) ){
+if( !in_array($request_headers['Host'],["https://astrocybernet.com"]) ){
   http_response_code(502);
   die;
 }
