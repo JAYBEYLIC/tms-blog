@@ -148,7 +148,7 @@
                         
                         <!-- Menu Button -->
                         <div class="menu-btns">
-                           <a href="contact.html" class="theme-btn">Get a Quote <i class="fas fa-long-arrow-right"></i></a>
+                           <a href="" class="theme-btn">Whatsapp<i class="fab fa-whatsapp" style="font-weight: bold; color: #fff; font-size: 30px;"></i></a>
                         </div>
                     </div>
                 </div>
