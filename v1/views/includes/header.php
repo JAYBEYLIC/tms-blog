@@ -69,7 +69,7 @@
 
                     <div class="header-inner rel d-flex align-items-center">
                         <div class="logo-outer">
-                         <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo4.jpg" alt="Logo" title="Logo"></a>
+                         <div class="logo"><a href=""><img src="assets/images/logos/astroj.png" alt="Logo" title="Logo"></a>
                 <!-- <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo" title="Logo"></a> -->
 
                             </div>
@@ -80,8 +80,8 @@
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
                                    <div class="mobile-logo">
-                                       <a href="index-2.html">
-                                            <img src="assets/images/logos/logo4.jpg" alt="Logo" title="Logo">
+                                       <a href="">
+                                            <img src="assets/images/logos/astroj.png" alt="Logo" title="Logo">
                                        </a>
                                    </div>
                                    

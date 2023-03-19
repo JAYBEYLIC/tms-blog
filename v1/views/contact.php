@@ -40,7 +40,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                             <div class="icon"><i class="fas fa-envelope-open"></i></div>
                             <h4>Email Us</h4>
                             <a href="mailto:">[astrocybernet&#160;@yahoo.com]</span></a><br>
-                            <a href="main">www.astrocybenet.org</a>
+                            <a href="main">www.astrocybenet.com</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">

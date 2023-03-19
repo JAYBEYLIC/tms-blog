@@ -68,7 +68,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                                         <div class="icon">
                                             <i class="<?=$value['icon_icon']?>"></i>
                                         </div>
-                                        <h4><a href="<?=$value['input_link_direction']?>"><?=$value['input_title']?></a></h4>
+                                        <h4><a href=""><?=$value['input_title']?></a></h4>
                                         <p><?=$value['input_text']?></p>
                                         
                                     </div>
