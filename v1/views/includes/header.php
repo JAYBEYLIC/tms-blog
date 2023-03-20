@@ -9,11 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-           <url>
-            <loc>https://astrocybernet.com/</loc>
-            <lastmod>2023-03-20T14:44:05+00:00</lastmod>
-            <priority>1.00</priority>
-            </url>
         </urlset>
 
 
