@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                                <p style="color:#b0f0b6; margin-left:-900px; font-weight: bold;">© 2023 Astrocybernet. All rights reserved.</p>
+                                <p style="color:#b0f0b6; margin-left:-900px; font-weight: bold;">© 2020 Astrocybernet. All rights reserved.</p>
 
 
                             </div>
@@ -155,5 +155,5 @@
 
 </body>
 
-<!-- Mirrored from demo.webtend.net/html/jeena/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:39:29 GMT -->
+
 </html>
