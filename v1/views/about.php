@@ -82,6 +82,7 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                 </div>
             </div>
         </section>
+        
         <!-- About Area end -->
         
         
