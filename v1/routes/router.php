@@ -31,62 +31,62 @@ if (count($uri) > 2) {
   switch ($uri[1]) {
 
 
-//     case '':
-//      include APP_PATH."/views/jayhome.php";
-//       break;
+    case '':
+     include APP_PATH."/views/jayhome.php";
+      break;
 
-//   case 'main':
-//   include APP_PATH."/views/jayhome.php";
-//   break;
+  case 'main':
+  include APP_PATH."/views/jayhome.php";
+  break;
 
-//   case 'explore':
-//     include APP_PATH."/views/services.php";
-//     break;
+  case 'explore':
+    include APP_PATH."/views/services.php";
+    break;
 
-//     case 'plan':
-//       include APP_PATH."/views/projects.php";
-//       break;
+    case 'plan':
+      include APP_PATH."/views/projects.php";
+      break;
 
-//       case 'blogs':
-//         include APP_PATH."/views/blog.php";
-//         break;
+      // case 'blogs':
+      //   include APP_PATH."/views/blog.php";
+      //   break;
 
-//       case 'about':
-//         include APP_PATH."/views/about.php";
-//         break;
+      case 'about':
+        include APP_PATH."/views/about.php";
+        break;
 
-//         case 'info':
-//           include APP_PATH."/views/contact.php";
-//           break;
+        case 'info':
+          include APP_PATH."/views/contact.php";
+          break;
 
-//         case 'team':
-//           include APP_PATH."/views/team.php";
-//           break;
+        // case 'team':
+        //   include APP_PATH."/views/team.php";
+        //   break;
 
-//         case 'faq':
-//           include APP_PATH."/views/faqs.php";
-//           break;
+        case 'faq':
+          include APP_PATH."/views/faqs.php";
+          break;
 
         
 
-//         case 'review':
-//           include APP_PATH."/views/testimonial.php";
-//           break;
+        case 'review':
+          include APP_PATH."/views/testimonial.php";
+          break;
 
-//           case 'contact-us-mail':
-//           include APP_PATH."/views/mail.php";
-//           break;
+          case 'contact-us-mail':
+          include APP_PATH."/views/mail.php";
+          break;
 
 
-//         case 'team':
-//           include APP_PATH."/views/team.php";
-//           break;
+        case 'team':
+          include APP_PATH."/views/team.php";
+          break;
 
-//           default:
-//           include APP_PATH."/views/404.php";
-//             break;
+          default:
+          include APP_PATH."/views/404.php";
+            break;
         
-// }
+}
 
 }
 
