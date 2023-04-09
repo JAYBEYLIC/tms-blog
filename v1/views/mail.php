@@ -287,6 +287,9 @@ if (isset($name) && !empty($name)) {
 if (isset($email) && !empty($email)) {
     $mail2admin->Body.="<p>Email: ".$email."</p>";
 }
+if (isset($phone_number) && !empty($phone_number)) {
+    $mail2admin->Body.="<p>Email: ".$phone_number."</p>";
+}
 if (isset($message) && !empty($message)) {
     $mail2admin->Body.="<p>Message: ".$message."</p>";
 }
