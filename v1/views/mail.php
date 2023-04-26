@@ -50,12 +50,13 @@ $userMessage = '<!DOCTYPE html>
 
     <link rel="icon" href="/logo.png" type="image/x-icon">
 
-    <title>McKodev TechLab </title>
+    <title>Astrocybernet </title>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
         rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <style type="text/css">
@@ -202,7 +203,8 @@ $userMessage = '<!DOCTYPE html>
 
                 <td class="welcome-details mb-3" style="display: block;">
                     <p>If you have any question, please email us at <span> <a href="mailto:'.$site_email.'">'.$site_email.'</a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
-                    <button><a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp"></i> Whatsapp</a></button>
+                    <button><a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp">
+                    </i> Whatsapp</a></button>
                 </td>
             </tr>
         </tbody>
@@ -287,9 +289,9 @@ if (isset($name) && !empty($name)) {
 if (isset($email) && !empty($email)) {
     $mail2admin->Body.="<p>Email: ".$email."</p>";
 }
-if (isset($phone_number) && !empty($phone_number)) {
-    $mail2admin->Body.="<p>Email: ".$phone_number."</p>";
-}
+// if (isset($phone_number) && !empty($phone_number)) {
+//     $mail2admin->Body.="<p>Email: ".$phone_number."</p>";
+// }
 if (isset($message) && !empty($message)) {
     $mail2admin->Body.="<p>Message: ".$message."</p>";
 }
