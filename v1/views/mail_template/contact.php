@@ -152,7 +152,7 @@
             <tr>
                 <td class="welcome-image mb-3" style="display: block;">
                    <!-- <img src="<?=$logo_directory?>"> -->
-                   <img src="../assets/images/logos/logo1.jpg">
+                   <img src="logo1.jpg">
 
                 </td>
 
