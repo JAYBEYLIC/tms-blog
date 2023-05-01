@@ -151,7 +151,7 @@
         <tbody>
             <tr>
                 <td class="welcome-image mb-3" style="display: block;">
-                   
+                   <img src="">
                 </td>
 
                 <td class="welcome-name mb-3" style="text-align: left; display: block;">
@@ -165,8 +165,8 @@
                     <p>If you have any question, please email us at <span> <a href="mailto:'<?=$site_email?>'"><?=$site_email?></a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
                     <button><a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp">
                     </i> Whatsapp</a></button>
-                    <button><a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram">
-                    </i>Instagram</a></button>
+                    <!-- <button><a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram">
+                    </i>Instagram</a></button> -->
                 </td>
             </tr>
         </tbody>
@@ -189,10 +189,7 @@
                                 <i class="fab fa-twitter" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#1D9BF0"></i>
                             </a>
                         </td>
-                        <td>
-                            <a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
-                        </td> 
-                       
+                        
                         <td>
                             <a href="<?=$igLink?>">
                                 <i class="fab fa-instagram" alt="" style="font-size: 25px; width: 22px; color:#F60078"></i>
