@@ -62,7 +62,7 @@ $mail->Subject = $subject;
    $mail->Body = ob_get_contents();
 
    ob_end_clean();
-$mail->Body = $userMessage;
+// $mail->Body = $userMessage;
 
 // var_dump($mail);
 $mail2admin = new PHPMailer;
