@@ -44,7 +44,7 @@ require APP_PATH.'/phpm/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 $mail->isSMTP(); // Set mailer to use SMTP
-// $mail->SMTPDebug = 2; // Enable verbose debug output
+$mail->SMTPDebug = 2; // Enable verbose debug output
 $mail->Host = $site_email_smtp_host; // Specify main and backup SMTP servers
 $mail->SMTPAuth = true; // Enable SMTP authentication
 $mail->Username = $site_email_from; // SMTP username
