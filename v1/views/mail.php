@@ -90,8 +90,8 @@ if (isset($name) && !empty($name)) {
 if (isset($email) && !empty($email)) {
     $mail2admin->Body.="<p>Email: ".$email."</p>";
 }
-if (isset($number) && !empty($phone_number)) {
-    $mail2admin->Body.="<p>Email: ".$number."</p>";
+if (isset($number) && !empty($number)) {
+    $mail2admin->Body.="<p>Number: ".$number."</p>";
 }
 if (isset($message) && !empty($message)) {
     $mail2admin->Body.="<p>Message: ".$message."</p>";
