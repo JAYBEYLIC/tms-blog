@@ -151,8 +151,8 @@
         <tbody>
             <tr>
                 <td class="welcome-image mb-3" style="display: block;">
-                   <!-- <img src="<?=$logo_directory?>"> -->
-                   <img src="logo1.jpg">
+                   <img src="<?=$logo_directory?>">
+                   
 
                 </td>
 
