@@ -151,7 +151,9 @@
         <tbody>
             <tr>
                 <td class="welcome-image mb-3" style="display: block;">
-                   <img src="<?=$logo_directory?>">
+                   <!-- <img src="<?=$logo_directory?>"> -->
+                   <img src="../assets/images/logos/logo1.jpg">
+
                 </td>
 
                 <td class="welcome-name mb-3" style="text-align: left; display: block;">
