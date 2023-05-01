@@ -157,8 +157,8 @@
                 </td>
 
                 <td class="welcome-name mb-3" style="text-align: left; display: block;">
-                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,'<?=$name?>'
-                        Welcome to '<?=$site_name?>'</h4>
+                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,<?=$name?>
+                        Welcome to <?=$site_name?></h4>
                     <h5>We have received your request.We will respond to you shortly.</h5>
                     <h5>Thank you.We cannot wait to discuss your issues and create magic with you.</h5>
                 </td>
