@@ -39,7 +39,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                         <div class="contact-info-box wow fadeInUp delay-0-3s">
                             <div class="icon"><i class="fas fa-envelope-open"></i></div>
                             <h4>Email Us</h4>
-                            <a href="mailto:">[astrocybernet&#160;@yahoo.com]</span></a><br>
+                            <a href="mailto:">[astrocybernethack&#160;@yahoo.com]</span></a><br>
                             <a href="main">www.astrocybenet.com</a>
                         </div>
                     </div>
