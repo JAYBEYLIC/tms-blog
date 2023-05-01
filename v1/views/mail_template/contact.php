@@ -183,7 +183,7 @@
                             </a>
                         </td>
                         <td>
-                            <a href="<?=$twitterLink?>'">
+                            <a href="<?=$twitterLink?>">
                                 <i class="fab fa-twitter" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#1D9BF0"></i>
                             </a>
                         </td>
