@@ -184,13 +184,13 @@
                         </td>
                         <td>
                             <a href="<?=$twitterLink?>">
-                                <i class="fab fa-twitter" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#1D9BF0"></i>
+                                <i class="fa fa-twitter" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#1D9BF0"></i>
                             </a>
                         </td>
                        
                         <td>
                             <a href="<?=$igLink?>">
-                                <i class="fab fa-instagram" alt="" style="font-size: 25px; width: 22px; color:#F60078"></i>
+                                <i class="fa fa-instagram" alt="" style="font-size: 25px; width: 22px; color:#F60078"></i>
                             </a>
                         </td>
                     </tr>
