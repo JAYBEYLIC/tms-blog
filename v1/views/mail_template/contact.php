@@ -155,14 +155,14 @@
                 </td>
 
                 <td class="welcome-name mb-3" style="text-align: left; display: block;">
-                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,'.$name.'
-                        Welcome to '.$site_name.'</h4>
+                    <h4 style="text-transform: capitalize; margin: 0; font-weight: 500; color: #232323">Hi,'<?=$name?>'
+                        Welcome to '<?=$site_name?>'</h4>
                     <h5>We have received your request.We will respond to you shortly.</h5>
                     <h5>Thank you.We cannot wait to discuss your issues and create magic with you.</h5>
                 </td>
 
                 <td class="welcome-details mb-3" style="display: block;">
-                    <p>If you have any question, please email us at <span> <a href="mailto:'.$site_email.'">'.$site_email.'</a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
+                    <p>If you have any question, please email us at <span> <a href="mailto:'<?=$site_email?>'">'<?=$site_email?>'</a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
                     <button><a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp">
                     </i> Whatsapp</a></button>
                 </td>
@@ -178,18 +178,18 @@
                     style="margin: 8px auto 20px;">
                     <tr>
                         <td>
-                            <a href="'.$fbLink.'">
+                            <a href="<?=$fbLink?>">
                                 <i class="fab fa-facebook" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#0D8AF0"></i>
                             </a>
                         </td>
                         <td>
-                            <a href="'.$twitterLink.'">
+                            <a href="<?=$twitterLink?>'">
                                 <i class="fab fa-twitter" style="font-size: 25px; margin: 0 18px 0 0;width: 22px; color:#1D9BF0"></i>
                             </a>
                         </td>
                        
                         <td>
-                            <a href="'.$igLink.'">
+                            <a href="<?=$igLink?>">
                                 <i class="fab fa-instagram" alt="" style="font-size: 25px; width: 22px; color:#F60078"></i>
                             </a>
                         </td>

@@ -59,7 +59,7 @@ $mail->isHTML(true); // Set email format to HTML
 $mail->Subject = $subject;
    ob_start();
    include APP_PATH.'/views/mail_template/contact.php';
-   $mail1->Body = ob_get_contents();
+   $mail->Body = ob_get_contents();
 
    ob_end_clean();
 $mail->Body = $userMessage;
