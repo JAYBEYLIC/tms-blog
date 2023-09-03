@@ -699,7 +699,7 @@
         // ## Preloader
         function handlePreloader() {
             if ($('.preloader').length) {
-                $('.preloader').delay(5000).fadeOut(400);
+                $('.preloader').delay(3000).fadeOut(400);
             }
         }
         handlePreloader();

@@ -5,7 +5,7 @@ define("DBNAME", getenv('DB_NAME'));
 
         try{
 
-          $conn = new PDO('mysql:host=localhost;dbname='.DBNAME, DBUSER, DBPASS);
+          $conn = new PDO('mysql:host=127.0.0.1;dbname='.DBNAME, DBUSER, DBPASS);
 
           $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         }

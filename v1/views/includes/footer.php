@@ -145,7 +145,7 @@
     <!--  WOW Animation -->
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom script -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script1.js"></script>
     <script src="ajax/ajax.min.js"></script>
     <script src="assets/js/sweetalert2.all.min.js"></script>
 
