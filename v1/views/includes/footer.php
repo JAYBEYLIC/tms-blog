@@ -31,7 +31,7 @@
                     <div class="col-xl-3 col-sm-6 order-xl-2">
                         <div class="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
                             <div class="social-style-one">
-                                <a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/eliteastroservices?igsh=bjVtcmh6ZWZ4Z25u&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 <a href="https://wa.me/+19069849264"><i class="fab fa-whatsapp"></i></a>
                                  <p>Astrocybernet Hack is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.</p>
                             <a href="mailto:astrocybernethack@yahoo.com" class="read-more">Get in Touch<i class="fas fa-long-arrow-right"></i></a>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                                <p style="color:#b0f0b6; margin-left:-900px; font-weight: bold;">© 2020 Astrocybernet. All rights reserved.</p>
+                                <p style="color:#b0f0b6; margin-left:-900px; font-weight: bold;">© 2020 Eliteastroservices. All rights reserved.</p>
 
 
                             </div>
