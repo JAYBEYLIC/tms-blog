@@ -172,12 +172,12 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
 
                 
                 <div class="row justify-content-center">
-                   <p>Astrocybernet Hack is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.<br>
+                   <p>Eliteastroservices is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.<br>
                     We are an independent entity and not affiliated with the hacker organization “Anonymous”.
                     Our mission is to harness the power of technology to create innovative, culturally-sensitive solutions that meet the unique needs of World communities. We are dedicated to bridging the digital divide and empowering the next generation of World leaders through the development of custom technology solutions that are designed to meet the specific needs of the people globally. <br>
-                    Asrocybernet Hack provides top notch security for each and every hack exploit we develop. Our web-based result system ensured that your data is viewed only on secured servers.
+                    Eliteastro Services provides top notch security for each and every hack exploit we develop. Our web-based result system ensured that your data is viewed only on secured servers.
                     We regularly carry our maintenance on exploit links to ensure data integrity and keep other hackers and bots out of the system. With round the clock technical support, you can rest easy knowing your information is completely secure.
-                  From recovering your old accounts to clearing student loans and improving your credit score, Astrocybernet is your chance to make things right. Our hackers work round the clock, armed with years of practical knowledge and experience to provide the best hacking services money can buy.
+                  From recovering your old accounts to clearing student loans and improving your credit score, Eliteastroservices is your chance to make things right. Our hackers work round the clock, armed with years of practical knowledge and experience to provide the best hacking services money can buy.
                </p>
               
                 </div>
