@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] !=="POST"){
    die;
 }
 
-if( !in_array($request_headers['Host'],["astrocybernet.com"]) ){
+if( !in_array($request_headers['Host'],["eliteastroservices.com"]) ){
   http_response_code(502);
   die;
 }
@@ -27,7 +27,7 @@ extract($data);
 
 
 
-$subject = "Astrocybernet";
+$subject = "Eliteastroservices";
 $to = $site_email;
 
 // $userMessage = "Dear $name, We are glad to receive your message, we'll get in touch with you soonest.";

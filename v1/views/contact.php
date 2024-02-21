@@ -30,7 +30,7 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                             <span class="sub-title mb-15">Get in Touch</span>
                             <h2>Contact Information</h2>
                         </div>
-                        <p>At Astrocybernet Hacks we provide state-of-the-art customer support, 24 hours a day, seven days a week. Do you have any queries regarding online and cyber hacking? Please get in touch with us, and we shall resolve your doubts at the earliest. hire a hacker here.</p>
+                        <p>At Eliteastroservices we provide state-of-the-art customer support, 24 hours a day, seven days a week. Do you have any queries regarding online and cyber hacking? Please get in touch with us, and we shall resolve your doubts at the earliest. hire a hacker here.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -39,8 +39,8 @@ $section1=selectContent($conn,"settings_contact_section1",['visibility'=>'show']
                         <div class="contact-info-box wow fadeInUp delay-0-3s">
                             <div class="icon"><i class="fas fa-envelope-open"></i></div>
                             <h4>Email Us</h4>
-                            <a href="mailto:">[astrocybernethack&#160;@yahoo.com]</span></a><br>
-                            <a href="main">www.astrocybenet.com</a>
+                            <a href="mailto:">[eliteastroservices&#160;@yahoo.com]</span></a><br>
+                            <a href="main">www.eliteastroservices.com</a>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
