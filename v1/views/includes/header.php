@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="JHUduz-up1sUCmZV_FyaCsVGXKEiNEmPf_zuRQ_kZp8" />
         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         </urlset>
 

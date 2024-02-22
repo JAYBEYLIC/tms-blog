@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Astrocybernet</title>
+    <title>Eliteastroservices</title>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/images/logos/logo1.jpg" type="image/x-icon">
     <!-- Google Fonts -->

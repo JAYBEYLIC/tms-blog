@@ -165,8 +165,12 @@
 
                 <td class="welcome-details mb-3" style="display: block;">
                     <p>If you have any question, please email us at <span> <a href="mailto:'<?=$site_email?>'"><?=$site_email?></a> </span> You can also chat with us on whatsapp by clicking on the link below.</p>
-                    <a href="https://www.instagram.com/eliteastroservices?igsh=bjVtcmh6ZWZ4Z25u&utm_source=qr"><i class="fab fa-instagram"></i></a>
-                                <a href="https://wa.me/+19069849264"><i class="fab fa-whatsapp"></i></a>
+                    <button>
+                    <a href="https://wa.me/'.$site_phone.'"><i class="fab fa-whatsapp"></i> Whatsapp</a></button>
+                    <a href="https://wa.me/+19069849264" class="theme-btn">Whatsapp<i class="fab fa-whatsapp" style="font-weight: bold; color: #fff; font-size: 30px;"></i></a>
+
+                    <!-- <button><a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram">
+                    </i>Instagram</a></button> -->
                 </td>
             </tr>
         </tbody>
