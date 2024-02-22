@@ -1,6 +1,6 @@
 <?php
 ob_start();
-
+die;
 $dummy = "dummy.png";
 $fbid = "2213158278782711";
 session_start();
