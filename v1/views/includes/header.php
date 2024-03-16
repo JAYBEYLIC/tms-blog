@@ -17,7 +17,7 @@
     <!-- Title -->
     <title>Eliteastroservices</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/logo1.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/eas.jpeg" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
     
@@ -103,7 +103,7 @@
 
                     <div class="header-inner rel d-flex align-items-center">
                         <div class="logo-outer">
-                         <div class="logo"><a href=""><img src="assets/images/logos/astroj1.png" alt="Logo" title="Logo"></a>
+                         <div class="logo"><a href=""><img src="assets/images/logos/eas.jpeg"  alt="Logo" title="Logo" style="height: 80px; width: 70px; border-radius:80%; border: 4px solid white;"></a>
                 <!-- <div class="logo"><a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo" title="Logo"></a> -->
 
                             </div>
@@ -115,7 +115,7 @@
                                 <div class="navbar-header">
                                    <div class="mobile-logo">
                                        <a href="">
-                                            <img src="assets/images/logos/astroj.png" alt="Logo" title="Logo">
+                                            <img src="assets/images/logos/eas.jpeg" alt="Logo" title="Logo" style="height: 80px; width: 70px; border-radius:50%; border: 4px solid white;">
                                        </a>
                                    </div>
                                    

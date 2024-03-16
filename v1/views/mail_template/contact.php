@@ -174,7 +174,7 @@
                 </td>
             </tr>
         </tbody>
-    </table>
+    </table> 
 
     <table class="text-center" align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
         style="background-color: #eff2f7; color: #232323; padding: 40px 30px;">

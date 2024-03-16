@@ -23,7 +23,7 @@
                     <div class="col-xl-3 col-sm-6">
                         <div class="footer-widget widget_about wow fadeInUp delay-0-2s">
                             <div class="footer-logo mb-30">
-                                <a href="index-2.html"><img src="assets/images/logos/logo1.jpg" alt="Logo"></a>
+                                <a href=""><img src="assets/images/logos/eas.jpeg" alt="Logo"></a>
                             </div>
                            
                         </div>
@@ -58,12 +58,12 @@
                                     <h4 class="footer-title">Services</h4>
                                     <ul class="list-style-two">
                                         <li><a href="info">Credit Repair</a></li>
-                                        <li><a href="explore">Bitcoin Mining</a></li>
                                         <li><a href="explore">Passive Income</a></li>
                                         <li><a href="explore">Social media Recovery</a></li>
                                         <li><a href="info">Hack School Grades</a></li>
-                                        <li><a href="explore">Track Phone/Spyware</a></li>
-                                        <li><a href="explore">Hacking Softwares</a></li>
+                                        <li><a href="explore">Hacking Softwares</a></li> 
+                                        <!-- <li><a href="explore">Track Phone/Spyware</a></li> -->
+                                        <!-- <li><a href="explore">Bitcoin Mining</a></li> -->
                                     </ul>
                                 </div>
                             </div>

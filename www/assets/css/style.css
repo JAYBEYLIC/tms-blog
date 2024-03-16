@@ -59,8 +59,8 @@ body {
   font-family: "Roboto", sans-serif;
   --base-color: #838694;
   --heading-color: #1b1f2e;
-  --primary-color: #30f0b6;
-  --secondary-color: #8c1ca7;
+  --primary-color: #2FA4FF;
+  --secondary-color: #0E185F;
   --lighter-color: #f7f7f9;
   --border-color: rgba(21, 16, 31, 0.1); }
 
@@ -734,7 +734,7 @@ a.theme-btn {
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: #2FA4FF;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite; }
 
@@ -883,7 +883,7 @@ a.theme-btn {
 
 /* Color + Background */
 .bgc-black {
-  background-color: #8c1ca7; }
+  background-color: #2FA4FF; }
 
 .bgc-gray {
   background-color: var(--heading-color); }
@@ -8739,7 +8739,7 @@ blockquote {
 
 .coffee{
 /*  background-color: var(--bg);*/
-  color: #8E3AA7;
+  color: #2FA4FF;
   font: 1em/1.5 sans-serif;
   height: 100vh;
   display: grid;
@@ -8781,7 +8781,7 @@ blockquote {
   height: 9em;
 }
 .coffee__cup-part {
-  background-color: #61C39D;
+  background-color: #0e185f;
   position: absolute;
   transition:
     background-color var(--trans-dur),
@@ -8829,7 +8829,7 @@ blockquote {
 }
 .coffee__cup-part--e {
   animation-name: cup-part-e;
-  background-color: #8E3AA7;
+  background-color: #2fa4ff;
   box-shadow:
     0 0 0 0.2em var(--fg) inset,
     0 1em 0 var(--bg) inset;

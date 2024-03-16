@@ -45,8 +45,8 @@ $patners=selectContent($conn,"panel_patners",['visibility'=>'show']);
                 <div class="row align-items-center gap-100">
                     <div class="col-lg-6">
                         <div class="about-five-images mt-55 rel z-1 wow fadeInRight delay-0-2s">
-                            <img src="<?=$section2['image_2']?>" alt="About">
-                            <img src="<?=$section2['image_1']?>" alt="About">
+                            <img src="<?=$section2['image_2']?>" alt="About" style="height:400px">
+                            <img src="<?=$section2['image_1']?>" alt="About" style="height:400px">
                             <div class="experience-years">
                                 <!-- <span class="years">25</span> -->
                                 <h4><?=$section2['input_short_description']?></h4>

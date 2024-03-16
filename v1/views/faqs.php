@@ -52,7 +52,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                         <div class="accordion-item">
                             <h5 class="accordion-header">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2">
-                                    Will My identity Remain Anonymous?
+                                    Will My identity Remain Anonymous? 
                                 </button>
                             </h5>
                             <div id="collapse2" class="accordion-collapse collapse show" data-bs-parent="#faq-accordion">
@@ -135,7 +135,7 @@ $section1=selectContent($conn,"settings_faqs_section1",['visibility'=>'show'])[0
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-right-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/about/logo1.jpg" alt="FAQs">
+                            <img src="assets/images/about/eas.jpeg" alt="FAQs">
                         </div>
                     </div>
                 </div>
