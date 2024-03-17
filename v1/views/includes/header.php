@@ -81,7 +81,7 @@
                <div class="container">
                    <div class="header-top">
                        <ul>
-                            <li><i class="far fa-envelope"></i> <a href=""><span class="">[eliteastroservices@yahoo.com&#160;]</span></a></li>
+                            <li><i class="far fa-envelope"></i> <a href=""><span class="">[ eliteastroservices @yahoo.com&#160; ]</span></a></li>
                             <!-- <li><i class="far fa-phone"></i> <a href="callto:+000(123)45688">+1 (906) 984 9264</a></li>
                             <li class="for-none"><i class="far fa-clock"></i> Working Hours : Monday- Friday, 10 am to 5pm</li> -->
                             <li>

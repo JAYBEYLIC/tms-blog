@@ -34,7 +34,7 @@
                                 <a href="https://www.instagram.com/eliteastroservices?igsh=bjVtcmh6ZWZ4Z25u&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 <a href="https://wa.me/+19069849264"><i class="fab fa-whatsapp"></i></a>
                                  <p>Eliteastroservices is a group of experienced, dedicated hackers utilizing the best in digital technology to bypass even the most advanced security systems on the web. For us, every challenge is a new opportunity to grow and evolve.</p>
-                            <a href="mailto:astrocybernethack@yahoo.com" class="read-more">Get in Touch<i class="fas fa-long-arrow-right"></i></a>
+                            <a href="mailto:eliteastroservices@yahoo.com" class="read-more">Get in Touch<i class="fas fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
