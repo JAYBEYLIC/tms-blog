@@ -12,7 +12,7 @@
     <!-- Title -->
     <title>Eliteastroservices</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/logos/logo1.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logos/eas.jpeg" type="image/x-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
     
@@ -44,7 +44,7 @@
         <section class="error-page-area py-80">
             <div class="container">
                 <div class="error-page-content text-center">
-                    <div class="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s"><a href="index-2.html"><img src="assets/images/logos/ast.jpeg" alt="Logo" title="Logo"></a></div>
+                    <!-- <div class="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s"><a href="index-2.html"><img src="assets/images/logos/ast.jpeg" alt="Logo" title="Logo"></a></div> -->
                     <div class="image mb-80 rmb-55 wow fadeInUp delay-0-4s">
                         <img src="assets/images/logos/404.png" alt="Error">
                     </div>
@@ -61,7 +61,7 @@
                         <div class="social-style-two mb-30 mx-2">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://instagram.com/astrocybernethack?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/eliteastroservices?igsh=bjVtcmh6ZWZ4Z25u&utm_source=qr"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
